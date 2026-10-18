@@ -1,0 +1,406 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cuota de administración en Bogotá por barrio y estrato (octubre 2026) | Aptología</title><meta name="description" content="En Bogotá, la cuota de administración de un apartamento en arriendo suma en la mediana el 15,8 % del canon: $700.000 al mes sobre un arriendo mediano de $4.000.000. Va de $204.000 en estrato 3 a $1.528.500 en estrato 6, pero como proporción del arriendo es casi igual en todos los estratos (13 % a…">
+<link rel="canonical" href="https://www.aptologia.com/estudios/cuota-de-administracion-bogota"><style>body{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#222}img{max-width:100%}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:4px 8px}a{color:#0b5}header,footer{color:#555;font-size:15px}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Cuota de administración en Bogotá por barrio y estrato (octubre 2026)", "description": "En Bogotá, la cuota de administración de un apartamento en arriendo suma en la mediana el 15,8 % del canon: $700.000 al mes sobre un arriendo mediano de $4.000.000. Va de $204.000 en estrato 3 a $1.528.500 en estrato 6, pero como proporción del arriendo es casi igual en todos los estratos (13 % a 17 %). Por metro cuadrado, la administración cuesta $5.000/m² en estrato 3 y $10.075/m² en estrato 6.", "url": "https://elbroker.github.io/aptologia-estudios-web/cuota-de-administracion-bogota/", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "inLanguage": "es", "creator": {"@type": "Person", "name": "Daniel Mauricio Pinzón Pineda", "sameAs": "https://orcid.org/0009-0007-5142-366X"}, "publisher": {"@type": "Organization", "name": "Aptología", "url": "https://www.aptologia.com"}, "spatialCoverage": "Colombia", "temporalCoverage": "2026", "sameAs": ["https://www.aptologia.com/estudios/cuota-de-administracion-bogota", "https://doi.org/10.5281/zenodo.23342099", "https://huggingface.co/datasets/aptologia/cuota-de-administracion-bogota-2026", "https://doi.org/10.5281/zenodo.23342099"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://elbroker.github.io/aptologia-estudios-web/cuota-de-administracion-bogota/data/cuota_de_administracion_bogota_datos.csv"}], "identifier": "https://doi.org/10.5281/zenodo.23342099"}</script></head><body>
+<header><a href="https://elbroker.github.io/aptologia-estudios-web/">Estudios de vivienda en Colombia — Aptología</a></header><main><h1>Cuota de administración en Bogotá por barrio y estrato (octubre 2026)</h1>
+<p><em>Estudio con datos abiertos (CC BY 4.0). Versión original: <a href="https://www.aptologia.com/estudios/cuota-de-administracion-bogota">https://www.aptologia.com/estudios/cuota-de-administracion-bogota</a> · DOI: <a href="https://doi.org/10.5281/zenodo.23342099">10.5281/zenodo.23342099</a></em></p>
+<p><strong>En Bogotá, la cuota de administración de un apartamento en arriendo suma en la mediana el 15,8 % del canon: $700.000 al mes sobre un arriendo mediano de $4.000.000.</strong> Va de $204.000 en estrato 3 a $1.528.500 en estrato 6, pero como proporción del arriendo es casi igual en todos los estratos (13 % a 17 %). Por metro cuadrado, la administración cuesta $5.000/m² en estrato 3 y $10.075/m² en estrato 6.</p>
+<p><em>Resumen: medimos 8.023 apartamentos en arriendo en Bogotá que publican la cuota de administración aparte del canon, sin duplicados, con corte al 12 de octubre de 2026.</em></p>
+<p><strong>Actualizado:</strong> 12 de octubre de 2026 · <strong>Próxima actualización:</strong> mensual.</p>
+<p><img alt="Cuota de administración por estrato" src="charts/administracion-por-estrato.png" /></p>
+<h2>La cifra por estrato</h2>
+<table>
+<thead>
+<tr>
+<th>Estrato</th>
+<th>Administración mediana</th>
+<th>Rango típico (p25–p75)</th>
+<th>% del canon</th>
+<th>Por m²</th>
+<th>Avisos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Estrato 2</td>
+<td>$195.900</td>
+<td>$125.200 – $250.000</td>
+<td>16,3 %</td>
+<td>$4.444/m²</td>
+<td>165</td>
+</tr>
+<tr>
+<td>Estrato 3</td>
+<td>$204.000</td>
+<td>$166.000 – $300.000</td>
+<td>13,3 %</td>
+<td>$5.000/m²</td>
+<td>1.251</td>
+</tr>
+<tr>
+<td>Estrato 4</td>
+<td>$400.000</td>
+<td>$268.300 – $531.000</td>
+<td>15,9 %</td>
+<td>$6.806/m²</td>
+<td>1.777</td>
+</tr>
+<tr>
+<td>Estrato 5</td>
+<td>$750.000</td>
+<td>$500.000 – $1.083.800</td>
+<td>16,6 %</td>
+<td>$8.871/m²</td>
+<td>1.129</td>
+</tr>
+<tr>
+<td>Estrato 6</td>
+<td>$1.528.500</td>
+<td>$900.000 – $2.355.000</td>
+<td>16,2 %</td>
+<td>$10.075/m²</td>
+<td>3.650</td>
+</tr>
+</tbody>
+</table>
+<h2>Por barrio</h2>
+<p><img alt="Cuota de administración por barrio" src="charts/administracion-por-barrio.png" /></p>
+<p>Barrios con al menos 30 avisos, de la administración más alta a la más baja. El enlace lleva a los apartamentos en arriendo de ese barrio.</p>
+<table>
+<thead>
+<tr>
+<th>Barrio</th>
+<th>Estrato más común</th>
+<th>Administración mediana</th>
+<th>% del canon</th>
+<th>Avisos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara-alta">Santa Barbara Alta</a></td>
+<td>6</td>
+<td>$2.550.000</td>
+<td>14,9 %</td>
+<td>76</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-alto">Chico Alto</a></td>
+<td>6</td>
+<td>$2.550.000</td>
+<td>17,3 %</td>
+<td>52</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/bosque-medina">Bosque Medina</a></td>
+<td>6</td>
+<td>$2.161.000</td>
+<td>16,7 %</td>
+<td>30</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/las-rosales">Las Rosales</a></td>
+<td>6</td>
+<td>$2.108.000</td>
+<td>17,0 %</td>
+<td>41</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-cabrera">La Cabrera</a></td>
+<td>6</td>
+<td>$2.062.000</td>
+<td>13,9 %</td>
+<td>274</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-la-cabrera">Chico   La Cabrera</a></td>
+<td>6</td>
+<td>$2.046.000</td>
+<td>13,4 %</td>
+<td>42</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-ana-oriental">Santa Ana Oriental</a></td>
+<td>6</td>
+<td>$2.000.000</td>
+<td>15,9 %</td>
+<td>52</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/cabrera">Cabrera</a></td>
+<td>6</td>
+<td>$2.000.000</td>
+<td>13,9 %</td>
+<td>76</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/nogal">Nogal</a></td>
+<td>6</td>
+<td>$2.000.000</td>
+<td>16,4 %</td>
+<td>31</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/los-rosales">Los Rosales</a></td>
+<td>6</td>
+<td>$1.961.650</td>
+<td>17,9 %</td>
+<td>316</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-reservado">Chico Reservado</a></td>
+<td>6</td>
+<td>$1.900.000</td>
+<td>15,7 %</td>
+<td>185</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-ana">Santa Ana</a></td>
+<td>6</td>
+<td>$1.890.000</td>
+<td>13,3 %</td>
+<td>32</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/rosales">Rosales</a></td>
+<td>6</td>
+<td>$1.823.000</td>
+<td>17,2 %</td>
+<td>70</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-refugio">El Refugio</a></td>
+<td>6</td>
+<td>$1.810.000</td>
+<td>16,1 %</td>
+<td>80</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-nogal">El Nogal</a></td>
+<td>6</td>
+<td>$1.747.000</td>
+<td>16,3 %</td>
+<td>123</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-chico">El chico</a></td>
+<td>6</td>
+<td>$1.550.000</td>
+<td>16,8 %</td>
+<td>74</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-virrey">El Virrey</a></td>
+<td>6</td>
+<td>$1.400.000</td>
+<td>15,4 %</td>
+<td>53</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-carolina">La Carolina</a></td>
+<td>6</td>
+<td>$1.395.000</td>
+<td>14,3 %</td>
+<td>67</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico">Chico</a></td>
+<td>6</td>
+<td>$1.263.050</td>
+<td>15,0 %</td>
+<td>176</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/san-patricio">San Patricio</a></td>
+<td>6</td>
+<td>$1.170.400</td>
+<td>18,1 %</td>
+<td>111</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-navarra">Chico Navarra</a></td>
+<td>6</td>
+<td>$1.103.000</td>
+<td>17,2 %</td>
+<td>80</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/rincon-del-chico">Rincon Del Chico</a></td>
+<td>6</td>
+<td>$1.074.000</td>
+<td>17,7 %</td>
+<td>40</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-norte">Chico norte</a></td>
+<td>6</td>
+<td>$1.056.350</td>
+<td>15,3 %</td>
+<td>382</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-paula">Santa Paula</a></td>
+<td>6</td>
+<td>$1.009.000</td>
+<td>17,2 %</td>
+<td>78</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-bibiana">Santa Bibiana</a></td>
+<td>6</td>
+<td>$915.000</td>
+<td>15,7 %</td>
+<td>48</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/antiguo-country">Antiguo Country</a></td>
+<td>5</td>
+<td>$900.000</td>
+<td>18,8 %</td>
+<td>83</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-norte-et-ii">Chico Norte Et. Ii</a></td>
+<td>6</td>
+<td>$899.000</td>
+<td>14,3 %</td>
+<td>31</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/bella-suiza">Bella Suiza</a></td>
+<td>5</td>
+<td>$896.950</td>
+<td>16,1 %</td>
+<td>64</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara-occidental">Santa Barbara Occidental</a></td>
+<td>5</td>
+<td>$850.000</td>
+<td>15,7 %</td>
+<td>79</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara-central">Santa Barbara Central</a></td>
+<td>6</td>
+<td>$800.000</td>
+<td>18,0 %</td>
+<td>104</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara">Santa Barbara</a></td>
+<td>6</td>
+<td>$800.000</td>
+<td>18,0 %</td>
+<td>191</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara-oriental">Santa Barbara Oriental</a></td>
+<td>5</td>
+<td>$760.700</td>
+<td>16,3 %</td>
+<td>49</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-norte-et-iii">Chico Norte Et. Iii</a></td>
+<td>6</td>
+<td>$700.000</td>
+<td>14,0 %</td>
+<td>47</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chapinero-alto">Chapinero Alto</a></td>
+<td>4</td>
+<td>$601.500</td>
+<td>19,0 %</td>
+<td>68</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/cedritos">Cedritos</a></td>
+<td>4</td>
+<td>$497.000</td>
+<td>18,2 %</td>
+<td>215</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/ciudad-salitre">Ciudad salitre</a></td>
+<td>4</td>
+<td>$400.000</td>
+<td>12,8 %</td>
+<td>38</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/centro-internacional">Centro Internacional</a></td>
+<td>4</td>
+<td>$353.500</td>
+<td>14,9 %</td>
+<td>46</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/las-nieves">Las Nieves</a></td>
+<td>3</td>
+<td>$327.709</td>
+<td>16,8 %</td>
+<td>38</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chapinero-central">Chapinero Central</a></td>
+<td>3</td>
+<td>$320.000</td>
+<td>15,7 %</td>
+<td>69</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/colina-campestre">Colina Campestre</a></td>
+<td>4</td>
+<td>$302.000</td>
+<td>14,3 %</td>
+<td>82</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-redil">El Redil</a></td>
+<td>4</td>
+<td>$250.000</td>
+<td>21,7 %</td>
+<td>108</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/mirandela">Mirandela</a></td>
+<td>3</td>
+<td>$250.000</td>
+<td>23,1 %</td>
+<td>32</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/lagos-de-torca">Lagos de Torca</a></td>
+<td>3</td>
+<td>$227.500</td>
+<td>13,8 %</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cómo usarlo para decidir:</strong> suma siempre la administración al canon antes de comparar. Un apartamento de $2.420.000 en estrato 4 cuesta en la práctica unos $2.820.000 al mes. Si el aviso dice "administración incluida", el canon ya la trae.</p>
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿Cuánto se paga de administración en Bogotá?</strong>
+La mediana es $700.000 al mes, el 15,8 % del canon, en 8.023 avisos con corte al 12 de octubre de 2026. La mitad de los apartamentos paga entre $330.000 y $1.530.000.</p>
+<p><strong>¿Cuánto es la administración en estrato 3?</strong>
+La mediana es $204.000 al mes (13,3 % del canon), con un rango típico de $166.000 a $300.000.</p>
+<p><strong>¿Cuánto es la administración en estrato 4?</strong>
+La mediana es $400.000 al mes (15,9 % del canon).</p>
+<p><strong>¿Cuánto es la administración en estrato 6?</strong>
+La mediana es $1.528.500 al mes; la mitad paga entre $900.000 y $2.355.000.</p>
+<p><strong>¿La administración la paga el inquilino o el propietario?</strong>
+En la mayoría de avisos el inquilino la paga aparte del canon; por eso este estudio la mide por separado. Cuando el aviso dice "administración incluida", ya está dentro del canon. Lo que se pacte debe quedar escrito en el contrato.</p>
+<p><strong>¿En qué barrio de Bogotá la administración es más alta?</strong>
+Entre los barrios con al menos 30 avisos, Santa Barbara Alta ($2.550.000) y Chico Alto ($2.550.000). La más baja está en Lagos de Torca ($227.500).</p>
+<h2>Metodología</h2>
+<ul>
+<li><strong>Fuente:</strong> base de ingesta diaria de Aptología, con avisos públicos de Metrocuadrado, Fincaraíz, Ciencuadras, Rentola y arriendo.com. Corte al 12 de octubre de 2026.</li>
+<li><strong>Filtros:</strong> avisos vivos que pasan el control de calidad, solo apartamentos en Bogotá, canon entre $400.000 y $30.000.000. Se excluyen TikTok y Facebook Marketplace.</li>
+<li><strong>Duplicados:</strong> se deja un aviso por grupo de duplicados (el mismo inmueble en varios portales). Quedan 21.042 apartamentos únicos.</li>
+<li><strong>Administración:</strong> solo avisos que publican la cuota aparte (no "incluida"), entre $30.000 y $5.000.000 y menor que el canon. El valor por m² usa áreas de 20 a 400 m².</li>
+<li><strong>Limitaciones:</strong> son precios pedidos, no cerrados. Los barrios vienen tal como los escribe cada portal, así que un mismo sector puede aparecer con dos nombres. Solo se publican grupos con al menos 20 avisos.</li>
+<li><strong>Datos abiertos:</strong> <a href="data/cuota_de_administracion_bogota_datos.csv">datos.csv</a>, licencia CC BY 4.0.</li>
+</ul>
+<h2>Cómo citar</h2>
+<p>Pinzón Pineda, D. M. (2026). <em>Cuota de administración en Bogotá por barrio y estrato (octubre 2026)</em>. Aptología. https://www.aptologia.com/estudios/cuota-de-administracion-bogota. Datos: datos.csv, licencia CC BY 4.0.</p><h2>Enlaces</h2><ul><li><a href="https://www.aptologia.com/estudios/cuota-de-administracion-bogota">Estudio en aptologia.com</a></li><li><a href="https://doi.org/10.5281/zenodo.23342099">DOI 10.5281/zenodo.23342099</a></li><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/cuota-de-administracion-bogota">Datos en GitHub</a></li><li><a href="https://huggingface.co/datasets/aptologia/cuota-de-administracion-bogota-2026">Hugging Face</a></li><li><a href="https://www.kaggle.com/datasets/aptologia/bogota-2026-cuota-de-administracion">Kaggle</a></li><li><a href="cuota-de-administracion-bogota.pdf">PDF</a></li></ul></main><footer>Autor: Daniel Mauricio Pinzón Pineda (<a href="https://orcid.org/0009-0007-5142-366X">ORCID</a>), <a href="https://www.aptologia.com">Aptología</a>. Licencia CC BY 4.0.</footer></body></html>

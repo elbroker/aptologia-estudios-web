@@ -1,0 +1,9 @@
+ciudad,barrios,avisos_venta_2alc,precio_mediano_2alc_cop,smmlv_2026,anios_smmlv_2026,anios_smmlv_2025,ingreso_pc_dane,anio_ingreso_dane,anios_ingreso_pc_dane,cuota_inicial_30pct_cop,anios_ahorrando_30pct_smmlv_para_cuota_inicial,fecha_precios_aptologia,fuente_precio,fuente_ingreso,fuente_smmlv
+Cartagena,19,1247,780000000,1750905,37.1,45.7,1107779,2025,58.7,234000000,37.1,2026-10-05,Aptología (avisos de venta),DANE GEIH,Decreto 1469/2025
+Bogotá,234,10876,634000000,1750905,30.2,37.1,2297080,2025,23.0,190200000,30.2,2026-10-05,Aptología (avisos de venta),DANE GEIH,Decreto 1469/2025
+Medellín,236,10718,550000000,1750905,26.2,32.2,1929483,2025,23.8,165000000,26.2,2026-10-05,Aptología (avisos de venta),DANE GEIH,Decreto 1469/2025
+Rionegro,30,2627,470000000,1750905,22.4,27.5,,2025,,141000000,22.4,2026-10-05,Aptología (avisos de venta),DANE GEIH,Decreto 1469/2025
+Barranquilla,36,978,320000000,1750905,15.2,18.7,1390697,2025,19.2,96000000,15.2,2026-10-05,Aptología (avisos de venta),DANE GEIH,Decreto 1469/2025
+Bucaramanga,24,469,319000000,1750905,15.2,18.7,1632502,2025,16.3,95700000,15.2,2026-10-05,Aptología (avisos de venta),DANE GEIH,Decreto 1469/2025
+Chía,19,488,310000000,1750905,14.8,18.1,,2025,,93000000,14.8,2026-10-05,Aptología (avisos de venta),DANE GEIH,Decreto 1469/2025
+Cali,80,3589,264000000,1750905,12.6,15.5,1584398,2025,13.9,79200000,12.6,2026-10-05,Aptología (avisos de venta),DANE GEIH,Decreto 1469/2025

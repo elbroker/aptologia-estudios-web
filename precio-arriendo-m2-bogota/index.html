@@ -1,0 +1,788 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Precio del arriendo por metro cuadrado en Bogotá, por barrio y estrato (octubre 2026) | Aptología</title><meta name="description" content="En Bogotá, el arriendo de un apartamento cuesta en la mediana $47.500 por metro cuadrado al mes. Va de $36.111/m² en estrato 3 a $64.167/m² en estrato 6. Entre barrios con al menos 30 avisos, el más caro por m² es Chico Norte Et. Ii ($88.106/m²) y el más barato Mirandela ($29.787/m²). Los…">
+<link rel="canonical" href="https://www.aptologia.com/estudios/precio-arriendo-m2-bogota"><style>body{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#222}img{max-width:100%}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:4px 8px}a{color:#0b5}header,footer{color:#555;font-size:15px}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Precio del arriendo por metro cuadrado en Bogotá, por barrio y estrato (octubre 2026)", "description": "En Bogotá, el arriendo de un apartamento cuesta en la mediana $47.500 por metro cuadrado al mes. Va de $36.111/m² en estrato 3 a $64.167/m² en estrato 6. Entre barrios con al menos 30 avisos, el más caro por m² es Chico Norte Et. Ii ($88.106/m²) y el más barato Mirandela ($29.787/m²). Los apartamentos de 1 habitación son los más caros por m² ($60.000/m²).", "url": "https://elbroker.github.io/aptologia-estudios-web/precio-arriendo-m2-bogota/", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "inLanguage": "es", "creator": {"@type": "Person", "name": "Daniel Mauricio Pinzón Pineda", "sameAs": "https://orcid.org/0009-0007-5142-366X"}, "publisher": {"@type": "Organization", "name": "Aptología", "url": "https://www.aptologia.com"}, "spatialCoverage": "Colombia", "temporalCoverage": "2026", "sameAs": ["https://www.aptologia.com/estudios/precio-arriendo-m2-bogota", "https://doi.org/10.5281/zenodo.23342165", "https://huggingface.co/datasets/aptologia/precio-arriendo-m2-bogota-2026", "https://doi.org/10.5281/zenodo.23342165"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://elbroker.github.io/aptologia-estudios-web/precio-arriendo-m2-bogota/data/precio_arriendo_m2_bogota_datos.csv"}], "identifier": "https://doi.org/10.5281/zenodo.23342165"}</script></head><body>
+<header><a href="https://elbroker.github.io/aptologia-estudios-web/">Estudios de vivienda en Colombia — Aptología</a></header><main><h1>Precio del arriendo por metro cuadrado en Bogotá, por barrio y estrato (octubre 2026)</h1>
+<p><em>Estudio con datos abiertos (CC BY 4.0). Versión original: <a href="https://www.aptologia.com/estudios/precio-arriendo-m2-bogota">https://www.aptologia.com/estudios/precio-arriendo-m2-bogota</a> · DOI: <a href="https://doi.org/10.5281/zenodo.23342165">10.5281/zenodo.23342165</a></em></p>
+<p><strong>En Bogotá, el arriendo de un apartamento cuesta en la mediana $47.500 por metro cuadrado al mes.</strong> Va de $36.111/m² en estrato 3 a $64.167/m² en estrato 6. Entre barrios con al menos 30 avisos, el más caro por m² es Chico Norte Et. Ii ($88.106/m²) y el más barato Mirandela ($29.787/m²). Los apartamentos de 1 habitación son los más caros por m² ($60.000/m²).</p>
+<p><em>Resumen: 20.638 apartamentos en arriendo con área publicada, sin duplicados, corte al 12 de octubre de 2026.</em></p>
+<p><strong>Actualizado:</strong> 12 de octubre de 2026 · <strong>Próxima actualización:</strong> mensual.</p>
+<p><img alt="Arriendo por m² por estrato" src="charts/precio-m2-por-estrato.png" /></p>
+<h2>Por estrato</h2>
+<table>
+<thead>
+<tr>
+<th>Estrato</th>
+<th>Arriendo por m² (mediana)</th>
+<th>Rango típico</th>
+<th>Área mediana</th>
+<th>Canon mediano</th>
+<th>Avisos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Estrato 2</td>
+<td>$24.468</td>
+<td>$20.000 – $30.435</td>
+<td>47 m²</td>
+<td>$1.200.000</td>
+<td>550</td>
+</tr>
+<tr>
+<td>Estrato 3</td>
+<td>$36.111</td>
+<td>$28.889 – $47.193</td>
+<td>45 m²</td>
+<td>$1.600.000</td>
+<td>3.626</td>
+</tr>
+<tr>
+<td>Estrato 4</td>
+<td>$47.956</td>
+<td>$39.130 – $60.000</td>
+<td>54 m²</td>
+<td>$2.500.000</td>
+<td>3.921</td>
+</tr>
+<tr>
+<td>Estrato 5</td>
+<td>$55.271</td>
+<td>$44.588 – $68.729</td>
+<td>82 m²</td>
+<td>$4.300.000</td>
+<td>2.142</td>
+</tr>
+<tr>
+<td>Estrato 6</td>
+<td>$64.167</td>
+<td>$51.282 – $79.552</td>
+<td>145 m²</td>
+<td>$8.690.918</td>
+<td>5.852</td>
+</tr>
+</tbody>
+</table>
+<h2>Por número de habitaciones</h2>
+<table>
+<thead>
+<tr>
+<th>Habitaciones</th>
+<th>Arriendo por m²</th>
+<th>Área mediana</th>
+<th>Avisos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 hab</td>
+<td>$60.000</td>
+<td>38 m²</td>
+<td>5.836</td>
+</tr>
+<tr>
+<td>2 hab</td>
+<td>$41.026</td>
+<td>51 m²</td>
+<td>7.823</td>
+</tr>
+<tr>
+<td>3 hab</td>
+<td>$44.233</td>
+<td>115 m²</td>
+<td>6.026</td>
+</tr>
+<tr>
+<td>4+ hab</td>
+<td>$45.998</td>
+<td>260 m²</td>
+<td>923</td>
+</tr>
+</tbody>
+</table>
+<h2>Por barrio</h2>
+<p><img alt="Arriendo por m² por barrio" src="charts/precio-m2-por-barrio.png" /></p>
+<table>
+<thead>
+<tr>
+<th>Barrio</th>
+<th>Estrato más común</th>
+<th>Arriendo por m²</th>
+<th>Área mediana</th>
+<th>Canon mediano</th>
+<th>Avisos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/arriendo/bogota/chico-norte-et-ii">Chico Norte Et. Ii</a></td>
+<td>6</td>
+<td>$88.106</td>
+<td>87 m²</td>
+<td>$8.000.000</td>
+<td>47</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-la-cabrera">Chico   La Cabrera</a></td>
+<td>6</td>
+<td>$79.479</td>
+<td>190 m²</td>
+<td>$14.000.000</td>
+<td>50</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/virrey">Virrey</a></td>
+<td>6</td>
+<td>$73.913</td>
+<td>115 m²</td>
+<td>$8.300.000</td>
+<td>61</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico">Chico</a></td>
+<td>6</td>
+<td>$73.446</td>
+<td>100 m²</td>
+<td>$7.164.000</td>
+<td>309</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-norte">Chico norte</a></td>
+<td>6</td>
+<td>$73.429</td>
+<td>90 m²</td>
+<td>$6.600.000</td>
+<td>701</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-virrey">El Virrey</a></td>
+<td>6</td>
+<td>$73.348</td>
+<td>115 m²</td>
+<td>$8.500.000</td>
+<td>126</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-reservado">Chico Reservado</a></td>
+<td>6</td>
+<td>$73.171</td>
+<td>160 m²</td>
+<td>$11.500.000</td>
+<td>295</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-cabrera">La Cabrera</a></td>
+<td>6</td>
+<td>$72.727</td>
+<td>200 m²</td>
+<td>$14.000.000</td>
+<td>429</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-chico">El chico</a></td>
+<td>6</td>
+<td>$72.727</td>
+<td>120 m²</td>
+<td>$8.000.000</td>
+<td>133</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/parque-del-virrey">Parque Del Virrey</a></td>
+<td>6</td>
+<td>$72.232</td>
+<td>100 m²</td>
+<td>$7.500.000</td>
+<td>46</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-virrey">Chico Virrey</a></td>
+<td>6</td>
+<td>$71.875</td>
+<td>120 m²</td>
+<td>$8.000.000</td>
+<td>51</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-castellana">La Castellana</a></td>
+<td>4</td>
+<td>$71.615</td>
+<td>44 m²</td>
+<td>$2.900.000</td>
+<td>44</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-norte-iii">Chico Norte Iii</a></td>
+<td>6</td>
+<td>$71.528</td>
+<td>70 m²</td>
+<td>$4.550.000</td>
+<td>45</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-norte-et-iii">Chico Norte Et. Iii</a></td>
+<td>6</td>
+<td>$71.429</td>
+<td>75 m²</td>
+<td>$5.500.000</td>
+<td>71</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/cabrera">Cabrera</a></td>
+<td>6</td>
+<td>$70.312</td>
+<td>210 m²</td>
+<td>$15.000.000</td>
+<td>105</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/antiguo-country">Antiguo Country</a></td>
+<td>5</td>
+<td>$68.819</td>
+<td>83 m²</td>
+<td>$5.500.000</td>
+<td>138</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/quinta-camacho">Quinta Camacho</a></td>
+<td>4</td>
+<td>$68.000</td>
+<td>65 m²</td>
+<td>$4.200.000</td>
+<td>39</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-veracruz">La Veracruz</a></td>
+<td>3</td>
+<td>$67.093</td>
+<td>25 m²</td>
+<td>$1.700.000</td>
+<td>32</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/san-martin">San Martin</a></td>
+<td>4</td>
+<td>$66.556</td>
+<td>50 m²</td>
+<td>$3.300.000</td>
+<td>33</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara-oriental">Santa Barbara Oriental</a></td>
+<td>5</td>
+<td>$66.176</td>
+<td>70 m²</td>
+<td>$4.000.300</td>
+<td>69</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-nogal">El Nogal</a></td>
+<td>6</td>
+<td>$66.176</td>
+<td>151 m²</td>
+<td>$9.671.000</td>
+<td>178</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/samper">Samper</a></td>
+<td>4</td>
+<td>$63.633</td>
+<td>38 m²</td>
+<td>$2.750.000</td>
+<td>32</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/polo-club">Polo Club</a></td>
+<td>4</td>
+<td>$62.500</td>
+<td>35 m²</td>
+<td>$2.400.000</td>
+<td>31</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-ana-oriental">Santa Ana Oriental</a></td>
+<td>6</td>
+<td>$62.500</td>
+<td>224 m²</td>
+<td>$14.000.000</td>
+<td>66</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/centro-internacional">Centro Internacional</a></td>
+<td>4</td>
+<td>$61.905</td>
+<td>40 m²</td>
+<td>$2.600.000</td>
+<td>113</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/los-rosales">Los Rosales</a></td>
+<td>6</td>
+<td>$61.471</td>
+<td>182 m²</td>
+<td>$10.997.000</td>
+<td>432</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/bellavista">Bellavista</a></td>
+<td>6</td>
+<td>$61.111</td>
+<td>150 m²</td>
+<td>$9.000.000</td>
+<td>37</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-refugio">El Refugio</a></td>
+<td>6</td>
+<td>$60.811</td>
+<td>214 m²</td>
+<td>$11.500.000</td>
+<td>113</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/las-nieves">Las Nieves</a></td>
+<td>3</td>
+<td>$60.677</td>
+<td>33 m²</td>
+<td>$2.000.000</td>
+<td>90</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/rosales">Rosales</a></td>
+<td>6</td>
+<td>$60.000</td>
+<td>170 m²</td>
+<td>$10.050.000</td>
+<td>110</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/las-rosales">Las Rosales</a></td>
+<td>6</td>
+<td>$59.677</td>
+<td>230 m²</td>
+<td>$13.500.000</td>
+<td>61</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/nogal">Nogal</a></td>
+<td>6</td>
+<td>$59.649</td>
+<td>200 m²</td>
+<td>$10.000.000</td>
+<td>43</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/ciudad-salitre">Ciudad salitre</a></td>
+<td>4</td>
+<td>$59.623</td>
+<td>60 m²</td>
+<td>$3.400.000</td>
+<td>121</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-ana">Santa Ana</a></td>
+<td>6</td>
+<td>$59.545</td>
+<td>190 m²</td>
+<td>$9.650.000</td>
+<td>44</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-macarena">La Macarena</a></td>
+<td>4</td>
+<td>$59.459</td>
+<td>46 m²</td>
+<td>$3.000.000</td>
+<td>51</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-carolina">La Carolina</a></td>
+<td>6</td>
+<td>$59.213</td>
+<td>159 m²</td>
+<td>$8.750.000</td>
+<td>128</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/pasadena">Pasadena</a></td>
+<td>5</td>
+<td>$58.776</td>
+<td>68 m²</td>
+<td>$3.650.000</td>
+<td>40</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-navarra">Chico Navarra</a></td>
+<td>6</td>
+<td>$58.621</td>
+<td>103 m²</td>
+<td>$6.350.000</td>
+<td>178</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/molinos-norte">Molinos Norte</a></td>
+<td>6</td>
+<td>$58.168</td>
+<td>105 m²</td>
+<td>$6.157.000</td>
+<td>37</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/pardo-rubio">Pardo Rubio</a></td>
+<td>4</td>
+<td>$57.838</td>
+<td>50 m²</td>
+<td>$3.000.000</td>
+<td>37</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-bibiana">Santa Bibiana</a></td>
+<td>6</td>
+<td>$57.176</td>
+<td>114 m²</td>
+<td>$6.500.000</td>
+<td>74</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-paula">Santa Paula</a></td>
+<td>6</td>
+<td>$57.143</td>
+<td>105 m²</td>
+<td>$5.500.000</td>
+<td>131</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara-occidental">Santa Barbara Occidental</a></td>
+<td>5</td>
+<td>$56.111</td>
+<td>90 m²</td>
+<td>$4.550.000</td>
+<td>139</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/san-patricio">San Patricio</a></td>
+<td>6</td>
+<td>$56.000</td>
+<td>96 m²</td>
+<td>$5.600.000</td>
+<td>191</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara-alta">Santa Barbara Alta</a></td>
+<td>6</td>
+<td>$55.000</td>
+<td>206 m²</td>
+<td>$14.000.000</td>
+<td>85</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/lisboa">Lisboa</a></td>
+<td>5</td>
+<td>$54.959</td>
+<td>67 m²</td>
+<td>$3.650.000</td>
+<td>34</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chapinero-alto">Chapinero Alto</a></td>
+<td>4</td>
+<td>$54.902</td>
+<td>58 m²</td>
+<td>$3.300.000</td>
+<td>127</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chapinero-central">Chapinero Central</a></td>
+<td>3</td>
+<td>$53.711</td>
+<td>38 m²</td>
+<td>$2.100.000</td>
+<td>117</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/chico-alto">Chico Alto</a></td>
+<td>6</td>
+<td>$53.459</td>
+<td>268 m²</td>
+<td>$13.200.000</td>
+<td>61</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara">Santa Barbara</a></td>
+<td>6</td>
+<td>$53.235</td>
+<td>94 m²</td>
+<td>$4.600.000</td>
+<td>367</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-plan">El Plan</a></td>
+<td>4</td>
+<td>$53.195</td>
+<td>37 m²</td>
+<td>$2.099.000</td>
+<td>30</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/bella-suiza">Bella Suiza</a></td>
+<td>5</td>
+<td>$52.778</td>
+<td>101 m²</td>
+<td>$4.500.000</td>
+<td>133</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/siete-de-agosto">Siete De Agosto</a></td>
+<td>3</td>
+<td>$52.000</td>
+<td>25 m²</td>
+<td>$1.500.000</td>
+<td>37</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-calleja">La Calleja</a></td>
+<td>5</td>
+<td>$51.961</td>
+<td>87 m²</td>
+<td>$4.783.500</td>
+<td>59</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/rincon-del-chico">Rincon Del Chico</a></td>
+<td>6</td>
+<td>$51.711</td>
+<td>120 m²</td>
+<td>$5.500.000</td>
+<td>74</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/quinta-paredes">Quinta Paredes</a></td>
+<td>4</td>
+<td>$50.000</td>
+<td>59 m²</td>
+<td>$3.000.000</td>
+<td>38</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/bosque-medina">Bosque Medina</a></td>
+<td>6</td>
+<td>$50.000</td>
+<td>260 m²</td>
+<td>$11.500.000</td>
+<td>39</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/modelia">Modelia</a></td>
+<td>4</td>
+<td>$49.457</td>
+<td>51 m²</td>
+<td>$2.250.000</td>
+<td>44</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-salle">La Salle</a></td>
+<td>4</td>
+<td>$48.571</td>
+<td>51 m²</td>
+<td>$2.625.000</td>
+<td>32</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/la-felicidad">La Felicidad</a></td>
+<td>4</td>
+<td>$48.438</td>
+<td>64 m²</td>
+<td>$3.100.000</td>
+<td>73</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/nicolas-de-federman">Nicolas De Federman</a></td>
+<td>4</td>
+<td>$48.229</td>
+<td>75 m²</td>
+<td>$3.312.625</td>
+<td>52</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/montevideo">Montevideo</a></td>
+<td>4</td>
+<td>$47.887</td>
+<td>42 m²</td>
+<td>$2.000.000</td>
+<td>51</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/san-jose-de-bavaria">San jose de bavaria</a></td>
+<td>4</td>
+<td>$47.619</td>
+<td>42 m²</td>
+<td>$2.000.000</td>
+<td>69</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-barbara-central">Santa Barbara Central</a></td>
+<td>6</td>
+<td>$47.191</td>
+<td>92 m²</td>
+<td>$4.800.000</td>
+<td>165</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/colina-campestre">Colina Campestre</a></td>
+<td>4</td>
+<td>$47.067</td>
+<td>60 m²</td>
+<td>$2.400.000</td>
+<td>168</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/san-jose-de-usaquen">San Jose De Usaquen</a></td>
+<td>4</td>
+<td>$43.750</td>
+<td>52 m²</td>
+<td>$2.000.000</td>
+<td>45</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/mazuren">Mazuren</a></td>
+<td>4</td>
+<td>$43.399</td>
+<td>74 m²</td>
+<td>$2.800.000</td>
+<td>48</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/alameda">Alameda</a></td>
+<td>4</td>
+<td>$41.892</td>
+<td>50 m²</td>
+<td>$1.850.000</td>
+<td>49</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/cedritos">Cedritos</a></td>
+<td>4</td>
+<td>$41.584</td>
+<td>70 m²</td>
+<td>$2.650.000</td>
+<td>341</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/hayuelos">Hayuelos</a></td>
+<td>3</td>
+<td>$38.750</td>
+<td>42 m²</td>
+<td>$1.700.000</td>
+<td>45</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/lagos-de-torca">Lagos de Torca</a></td>
+<td>3</td>
+<td>$38.632</td>
+<td>43 m²</td>
+<td>$1.650.000</td>
+<td>116</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/santa-teresa">Santa Teresa</a></td>
+<td>4</td>
+<td>$38.413</td>
+<td>68 m²</td>
+<td>$2.700.000</td>
+<td>33</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/torca">Torca</a></td>
+<td>3</td>
+<td>$38.229</td>
+<td>45 m²</td>
+<td>$1.750.000</td>
+<td>47</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/casa-blanca">Casa Blanca</a></td>
+<td>3</td>
+<td>$38.095</td>
+<td>45 m²</td>
+<td>$1.650.000</td>
+<td>37</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-tintal">El Tintal</a></td>
+<td>3</td>
+<td>$35.771</td>
+<td>40 m²</td>
+<td>$1.450.000</td>
+<td>39</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/colombia">Colombia</a></td>
+<td></td>
+<td>$34.525</td>
+<td>42 m²</td>
+<td>$1.600.000</td>
+<td>37</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/castilla">Castilla</a></td>
+<td>3</td>
+<td>$34.000</td>
+<td>48 m²</td>
+<td>$1.600.000</td>
+<td>51</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/madelena">Madelena</a></td>
+<td>3</td>
+<td>$32.857</td>
+<td>41 m²</td>
+<td>$1.369.600</td>
+<td>35</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/el-redil">El Redil</a></td>
+<td>4</td>
+<td>$31.429</td>
+<td>40 m²</td>
+<td>$1.300.000</td>
+<td>167</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/las-brisas">Las Brisas</a></td>
+<td>3</td>
+<td>$31.143</td>
+<td>45 m²</td>
+<td>$1.417.000</td>
+<td>32</td>
+</tr>
+<tr>
+<td><a href="/arriendo/bogota/mirandela">Mirandela</a></td>
+<td>3</td>
+<td>$29.787</td>
+<td>45 m²</td>
+<td>$1.500.000</td>
+<td>51</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cómo usarlo para decidir:</strong> multiplica el área del apartamento que viste por el valor por m² de su barrio. Si el canon pedido queda muy por encima del p75, hay margen para negociar.</p>
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿Cuánto vale el metro cuadrado de arriendo en Bogotá?</strong>
+La mediana es $47.500 por m² al mes (20.638 avisos, corte al 12 de octubre de 2026). La mitad de los apartamentos está entre $34.524 y $63.333 por m².</p>
+<p><strong>¿Cuánto cuesta el m² de arriendo en estrato 3?</strong>
+$36.111 por m² al mes en la mediana; en estrato 4, $47.956.</p>
+<p><strong>¿Cuál es el barrio más caro por metro cuadrado?</strong>
+Entre barrios con al menos 30 avisos, Chico Norte Et. Ii con $88.106/m², seguido de Chico   La Cabrera ($79.479/m²).</p>
+<p><strong>¿Cuál es el barrio más barato por metro cuadrado?</strong>
+Mirandela con $29.787/m² y Las Brisas con $31.143/m².</p>
+<p><strong>¿Por qué los apartamentos pequeños son más caros por m²?</strong>
+Porque cocina, baño y zonas comunes pesan igual en un apartamento pequeño. Un apartamento de 1 habitación cuesta $60.000/m², frente a $41.026/m² uno de 2.</p>
+<h2>Metodología</h2>
+<ul>
+<li><strong>Fuente:</strong> base de ingesta diaria de Aptología, con avisos públicos de Metrocuadrado, Fincaraíz, Ciencuadras, Rentola y arriendo.com. Corte al 12 de octubre de 2026.</li>
+<li><strong>Filtros:</strong> avisos vivos que pasan el control de calidad, solo apartamentos en Bogotá, canon entre $400.000 y $30.000.000. Se excluyen TikTok y Facebook Marketplace.</li>
+<li><strong>Duplicados:</strong> se deja un aviso por grupo de duplicados (el mismo inmueble en varios portales). Quedan 21.042 apartamentos únicos.</li>
+<li><strong>Precio por m²:</strong> canon dividido por el área publicada; áreas de 20 a 400 m² y valores de $8.000 a $200.000 por m².</li>
+<li><strong>Limitaciones:</strong> son precios pedidos, no cerrados. Los barrios vienen tal como los escribe cada portal, así que un mismo sector puede aparecer con dos nombres. Solo se publican grupos con al menos 20 avisos.</li>
+<li><strong>Datos abiertos:</strong> <a href="data/precio_arriendo_m2_bogota_datos.csv">datos.csv</a>, licencia CC BY 4.0.</li>
+</ul>
+<h2>Cómo citar</h2>
+<p>Pinzón Pineda, D. M. (2026). <em>Precio del arriendo por metro cuadrado en Bogotá, por barrio y estrato (octubre 2026)</em>. Aptología. https://www.aptologia.com/estudios/precio-arriendo-m2-bogota. Datos: datos.csv, licencia CC BY 4.0.</p><h2>Enlaces</h2><ul><li><a href="https://www.aptologia.com/estudios/precio-arriendo-m2-bogota">Estudio en aptologia.com</a></li><li><a href="https://doi.org/10.5281/zenodo.23342165">DOI 10.5281/zenodo.23342165</a></li><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/precio-arriendo-m2-bogota">Datos en GitHub</a></li><li><a href="https://huggingface.co/datasets/aptologia/precio-arriendo-m2-bogota-2026">Hugging Face</a></li><li><a href="https://www.kaggle.com/datasets/aptologia/bogota-2026-precio-arriendo-m2">Kaggle</a></li><li><a href="precio-arriendo-m2-bogota.pdf">PDF</a></li></ul></main><footer>Autor: Daniel Mauricio Pinzón Pineda (<a href="https://orcid.org/0009-0007-5142-366X">ORCID</a>), <a href="https://www.aptologia.com">Aptología</a>. Licencia CC BY 4.0.</footer></body></html>
