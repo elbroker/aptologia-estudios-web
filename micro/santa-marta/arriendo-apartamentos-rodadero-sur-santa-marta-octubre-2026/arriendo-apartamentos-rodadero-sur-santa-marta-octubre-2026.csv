@@ -1,0 +1,20 @@
+seccion,metrica,valor,moneda,n
+precio,p25,2450000.0,COP,49
+precio,mediana,3500000.0,COP,49
+precio,p75,4500000.0,COP,49
+precio,minimo,1535000.0,COP,49
+precio,maximo,9700000.0,COP,49
+m2,mediana_precio_m2,43820.22,COP,49
+m2,area_mediana_m2,73.0,m2,49
+admin,mediana_admin_mes,500000.0,COP,15
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,90.9,%,44
+estrato,estrato_mas_frecuente,6,,49
+habitaciones,1,2100000.0,COP,13
+habitaciones,2,3700000.0,COP,28
+habitaciones,3+,7000000.0,COP,8
+ciudad,mediana_ciudad_referencia,3000000.0,COP,
+ciudad,mediana_m2_ciudad,45000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/santa-marta/rodadero-sur,,
+fuente,licencia,CC BY 4.0,,

@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,3400000000.0,COP,272
+precio,mediana,4800000000.0,COP,272
+precio,p75,5800000000.0,COP,272
+precio,minimo,315000000.0,COP,272
+precio,maximo,8000000000.0,COP,272
+m2,mediana_precio_m2,8710801.39,COP,235
+m2,area_mediana_m2,495.0,m2,235
+admin,mediana_admin_mes,1200000.0,COP,144
+banos,mediana_banos,5.0,,
+parqueadero,pct_con_parqueadero,97.7,%,258
+estrato,estrato_mas_frecuente,6,,271
+habitaciones,3+,4800000000.0,COP,269
+ciudad,mediana_ciudad_referencia,1390000000.0,COP,
+ciudad,mediana_m2_ciudad,5531914.89,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/casas-en-venta/medellin/las-palmas,,
+fuente,licencia,CC BY 4.0,,

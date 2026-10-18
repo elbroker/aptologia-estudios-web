@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,1937741.5,COP,32
+precio,mediana,2775000.0,COP,32
+precio,p75,3575000.0,COP,32
+precio,minimo,1098305.0,COP,32
+precio,maximo,4700000.0,COP,32
+m2,mediana_precio_m2,31852.84,COP,32
+m2,area_mediana_m2,78.0,m2,32
+admin,mediana_admin_mes,393900.0,COP,21
+banos,mediana_banos,2.0,,
+estrato,estrato_mas_frecuente,4,,32
+habitaciones,2,2100000.0,COP,18
+habitaciones,3+,3121525.0,COP,14
+ciudad,mediana_ciudad_referencia,2529000.0,COP,
+ciudad,mediana_m2_ciudad,31943.75,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/puerto-colombia/salgar,,
+fuente,licencia,CC BY 4.0,,

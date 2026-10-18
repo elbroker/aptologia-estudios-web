@@ -1,0 +1,17 @@
+seccion,metrica,valor,moneda,n
+precio,p25,1600000.0,COP,31
+precio,mediana,1800000.0,COP,31
+precio,p75,2250000.0,COP,31
+precio,minimo,1200000.0,COP,31
+precio,maximo,3500000.0,COP,31
+m2,mediana_precio_m2,28571.43,COP,30
+m2,area_mediana_m2,65.0,m2,30
+banos,mediana_banos,2.0,,
+estrato,estrato_mas_frecuente,4,,31
+habitaciones,2,1600000.0,COP,13
+habitaciones,3+,1800000.0,COP,17
+ciudad,mediana_ciudad_referencia,1700000.0,COP,
+ciudad,mediana_m2_ciudad,29090.91,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/marinilla/la-industrial,,
+fuente,licencia,CC BY 4.0,,

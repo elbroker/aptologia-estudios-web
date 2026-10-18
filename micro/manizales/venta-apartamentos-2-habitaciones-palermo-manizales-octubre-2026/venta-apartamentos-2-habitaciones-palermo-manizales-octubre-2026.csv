@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,420000000.0,COP,53
+precio,mediana,490000000.0,COP,53
+precio,p75,530000000.0,COP,53
+precio,minimo,240000000.0,COP,53
+precio,maximo,1300000000.0,COP,53
+m2,mediana_precio_m2,5546751.19,COP,53
+m2,area_mediana_m2,90.0,m2,53
+admin,mediana_admin_mes,350000.0,COP,47
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,49
+estrato,estrato_mas_frecuente,6,,53
+habitaciones,2,490000000.0,COP,53
+ciudad,mediana_ciudad_referencia,350000000.0,COP,
+ciudad,mediana_m2_ciudad,6166666.67,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/manizales/palermo,,
+fuente,licencia,CC BY 4.0,,

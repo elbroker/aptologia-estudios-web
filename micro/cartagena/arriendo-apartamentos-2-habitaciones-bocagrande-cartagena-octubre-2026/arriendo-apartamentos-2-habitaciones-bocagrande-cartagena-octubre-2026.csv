@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,3600000.0,COP,58
+precio,mediana,4600000.0,COP,58
+precio,p75,6315000.0,COP,58
+precio,minimo,1200000.0,COP,58
+precio,maximo,10000000.0,COP,58
+m2,mediana_precio_m2,48672.57,COP,57
+m2,area_mediana_m2,95.0,m2,57
+admin,mediana_admin_mes,729000.0,COP,22
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,97.8,%,45
+estrato,estrato_mas_frecuente,6,,58
+habitaciones,2,4600000.0,COP,58
+ciudad,mediana_ciudad_referencia,3400000.0,COP,
+ciudad,mediana_m2_ciudad,44285.71,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/cartagena/bocagrande,,
+fuente,licencia,CC BY 4.0,,

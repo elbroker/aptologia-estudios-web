@@ -1,0 +1,19 @@
+seccion,metrica,valor,moneda,n
+precio,p25,690000000.0,COP,109
+precio,mediana,780000000.0,COP,109
+precio,p75,890000000.0,COP,109
+precio,minimo,350000000.0,COP,109
+precio,maximo,2650000000.0,COP,109
+m2,mediana_precio_m2,7422680.41,COP,109
+m2,area_mediana_m2,110.0,m2,109
+admin,mediana_admin_mes,495000.0,COP,70
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,95.3,%,107
+estrato,estrato_mas_frecuente,5,,105
+habitaciones,2,690000000.0,COP,15
+habitaciones,3+,790000000.0,COP,94
+ciudad,mediana_ciudad_referencia,820000000.0,COP,
+ciudad,mediana_m2_ciudad,8452380.95,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/envigado/el-portal,,
+fuente,licencia,CC BY 4.0,,

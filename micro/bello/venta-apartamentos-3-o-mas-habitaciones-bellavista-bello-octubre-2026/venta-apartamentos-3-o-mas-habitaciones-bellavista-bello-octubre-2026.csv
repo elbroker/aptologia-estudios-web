@@ -1,0 +1,15 @@
+seccion,metrica,valor,moneda,n
+precio,p25,252500000.0,COP,30
+precio,mediana,291500000.0,COP,30
+precio,p75,357500000.0,COP,30
+precio,minimo,180000000.0,COP,30
+precio,maximo,650000000.0,COP,30
+m2,mediana_precio_m2,4928571.43,COP,30
+m2,area_mediana_m2,61.5,m2,30
+banos,mediana_banos,2.0,,
+habitaciones,3+,291500000.0,COP,30
+ciudad,mediana_ciudad_referencia,350000000.0,COP,
+ciudad,mediana_m2_ciudad,5365853.66,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/bello/bellavista,,
+fuente,licencia,CC BY 4.0,,

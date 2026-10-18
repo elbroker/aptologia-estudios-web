@@ -1,0 +1,19 @@
+seccion,metrica,valor,moneda,n
+precio,p25,253750000.0,COP,50
+precio,mediana,325000000.0,COP,50
+precio,p75,499829617.5,COP,50
+precio,minimo,220000000.0,COP,50
+precio,maximo,750000000.0,COP,50
+m2,mediana_precio_m2,5612244.9,COP,50
+m2,area_mediana_m2,58.5,m2,50
+admin,mediana_admin_mes,149500.0,COP,30
+banos,mediana_banos,2.0,,
+estrato,estrato_mas_frecuente,3,,35
+habitaciones,1,275000000.0,COP,9
+habitaciones,2,288500000.0,COP,16
+habitaciones,3+,497595915.0,COP,24
+ciudad,mediana_ciudad_referencia,420000000.0,COP,
+ciudad,mediana_m2_ciudad,5922146.64,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/la-ceja/san-nicolas,,
+fuente,licencia,CC BY 4.0,,

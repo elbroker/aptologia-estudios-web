@@ -1,0 +1,19 @@
+seccion,metrica,valor,moneda,n
+precio,p25,2090485.0,COP,33
+precio,mediana,2556514.0,COP,33
+precio,p75,3950000.0,COP,33
+precio,minimo,1745000.0,COP,33
+precio,maximo,10500000.0,COP,33
+m2,mediana_precio_m2,34761.9,COP,33
+m2,area_mediana_m2,80.7,m2,33
+admin,mediana_admin_mes,569122.0,COP,15
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,33
+estrato,estrato_mas_frecuente,5,,33
+habitaciones,2,2490000.0,COP,15
+habitaciones,3+,3950000.0,COP,15
+ciudad,mediana_ciudad_referencia,2500000.0,COP,
+ciudad,mediana_m2_ciudad,32222.22,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/armenia/la-castellana,,
+fuente,licencia,CC BY 4.0,,

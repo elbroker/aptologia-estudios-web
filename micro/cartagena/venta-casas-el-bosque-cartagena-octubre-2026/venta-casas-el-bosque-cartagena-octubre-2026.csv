@@ -1,0 +1,16 @@
+seccion,metrica,valor,moneda,n
+precio,p25,650000000.0,COP,37
+precio,mediana,800000000.0,COP,37
+precio,p75,1250000000.0,COP,37
+precio,minimo,360000000.0,COP,37
+precio,maximo,3000000000.0,COP,37
+m2,mediana_precio_m2,2428571.43,COP,37
+m2,area_mediana_m2,320.0,m2,37
+banos,mediana_banos,2.0,,
+estrato,estrato_mas_frecuente,3,,36
+habitaciones,3+,800000000.0,COP,32
+ciudad,mediana_ciudad_referencia,1300000000.0,COP,
+ciudad,mediana_m2_ciudad,4296875.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/casas-en-venta/cartagena/el-bosque,,
+fuente,licencia,CC BY 4.0,,

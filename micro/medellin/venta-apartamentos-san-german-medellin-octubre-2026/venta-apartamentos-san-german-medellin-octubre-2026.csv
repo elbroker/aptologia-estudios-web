@@ -1,0 +1,19 @@
+seccion,metrica,valor,moneda,n
+precio,p25,474000000.0,COP,64
+precio,mediana,580000000.0,COP,64
+precio,p75,650000000.0,COP,64
+precio,minimo,230000000.0,COP,64
+precio,maximo,830000000.0,COP,64
+m2,mediana_precio_m2,8214285.71,COP,64
+m2,area_mediana_m2,70.0,m2,64
+admin,mediana_admin_mes,360000.0,COP,47
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,76.7,%,60
+estrato,estrato_mas_frecuente,4,,64
+habitaciones,2,470000000.0,COP,13
+habitaciones,3+,598000000.0,COP,51
+ciudad,mediana_ciudad_referencia,840000000.0,COP,
+ciudad,mediana_m2_ciudad,7500000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/medellin/san-german,,
+fuente,licencia,CC BY 4.0,,

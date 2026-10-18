@@ -1,0 +1,19 @@
+seccion,metrica,valor,moneda,n
+precio,p25,389250000.0,COP,94
+precio,mediana,480000000.0,COP,94
+precio,p75,583750000.0,COP,94
+precio,minimo,290000000.0,COP,94
+precio,maximo,980000000.0,COP,94
+m2,mediana_precio_m2,4853059.58,COP,94
+m2,area_mediana_m2,91.0,m2,94
+admin,mediana_admin_mes,465000.0,COP,78
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,96.6,%,89
+estrato,estrato_mas_frecuente,4,,94
+habitaciones,2,350000000.0,COP,11
+habitaciones,3+,500000000.0,COP,82
+ciudad,mediana_ciudad_referencia,430000000.0,COP,
+ciudad,mediana_m2_ciudad,4666666.67,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/bucaramanga/mejoras-publicas,,
+fuente,licencia,CC BY 4.0,,

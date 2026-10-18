@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,535000000.0,COP,145
+precio,mediana,666517500.0,COP,145
+precio,p75,770000000.0,COP,145
+precio,minimo,260000000.0,COP,145
+precio,maximo,1250000000.0,COP,145
+m2,mediana_precio_m2,7600000.0,COP,145
+m2,area_mediana_m2,80.0,m2,145
+admin,mediana_admin_mes,430000.0,COP,81
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,141
+estrato,estrato_mas_frecuente,6,,144
+habitaciones,2,666517500.0,COP,145
+ciudad,mediana_ciudad_referencia,400000000.0,COP,
+ciudad,mediana_m2_ciudad,6061538.46,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/pereira/cerritos,,
+fuente,licencia,CC BY 4.0,,

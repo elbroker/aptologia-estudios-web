@@ -1,0 +1,20 @@
+seccion,metrica,valor,moneda,n
+precio,p25,2600000.0,COP,356
+precio,mediana,3170000.0,COP,356
+precio,p75,3900000.0,COP,356
+precio,minimo,1500000.0,COP,356
+precio,maximo,20000000.0,COP,356
+m2,mediana_precio_m2,43959.46,COP,354
+m2,area_mediana_m2,71.5,m2,354
+admin,mediana_admin_mes,462000.0,COP,113
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,99.1,%,336
+estrato,estrato_mas_frecuente,5,,356
+habitaciones,1,2500000.0,COP,64
+habitaciones,2,3000000.0,COP,229
+habitaciones,3+,4500000.0,COP,63
+ciudad,mediana_ciudad_referencia,3700000.0,COP,
+ciudad,mediana_m2_ciudad,44117.65,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/cartagena/serena-del-mar,,
+fuente,licencia,CC BY 4.0,,

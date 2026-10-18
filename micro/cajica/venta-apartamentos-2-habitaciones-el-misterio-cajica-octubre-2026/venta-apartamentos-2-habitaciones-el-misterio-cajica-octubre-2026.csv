@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,297500000.0,COP,39
+precio,mediana,320000000.0,COP,39
+precio,p75,341250000.0,COP,39
+precio,minimo,260000000.0,COP,39
+precio,maximo,490000000.0,COP,39
+m2,mediana_precio_m2,5833333.33,COP,39
+m2,area_mediana_m2,55.3,m2,39
+admin,mediana_admin_mes,285000.0,COP,32
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,39
+estrato,estrato_mas_frecuente,4,,37
+habitaciones,2,320000000.0,COP,39
+ciudad,mediana_ciudad_referencia,330000000.0,COP,
+ciudad,mediana_m2_ciudad,5749907.51,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/cajica/el-misterio,,
+fuente,licencia,CC BY 4.0,,

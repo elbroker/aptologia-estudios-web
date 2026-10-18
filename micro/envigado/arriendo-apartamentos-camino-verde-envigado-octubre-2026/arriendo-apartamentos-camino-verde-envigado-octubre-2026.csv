@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,3200000.0,COP,336
+precio,mediana,3650000.0,COP,336
+precio,p75,4362500.0,COP,336
+precio,minimo,1800000.0,COP,336
+precio,maximo,11000000.0,COP,336
+m2,mediana_precio_m2,46332.5,COP,336
+m2,area_mediana_m2,80.0,m2,336
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,99.7,%,313
+estrato,estrato_mas_frecuente,4,,333
+habitaciones,2,3575000.0,COP,86
+habitaciones,3+,3700000.0,COP,246
+ciudad,mediana_ciudad_referencia,4400000.0,COP,
+ciudad,mediana_m2_ciudad,48863.64,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/envigado/camino-verde,,
+fuente,licencia,CC BY 4.0,,

@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,465000000.0,COP,39
+precio,mediana,580000000.0,COP,39
+precio,p75,705000000.0,COP,39
+precio,minimo,297670000.0,COP,39
+precio,maximo,970000000.0,COP,39
+m2,mediana_precio_m2,7062500.0,COP,39
+m2,area_mediana_m2,85.0,m2,39
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,76.3,%,38
+estrato,estrato_mas_frecuente,4,,38
+habitaciones,2,630000000.0,COP,11
+habitaciones,3+,570000000.0,COP,27
+ciudad,mediana_ciudad_referencia,840000000.0,COP,
+ciudad,mediana_m2_ciudad,7500000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/medellin/belen-fatima,,
+fuente,licencia,CC BY 4.0,,

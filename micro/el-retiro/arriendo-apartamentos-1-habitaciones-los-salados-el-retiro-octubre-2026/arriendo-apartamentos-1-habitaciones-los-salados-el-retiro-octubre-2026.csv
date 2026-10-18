@@ -1,0 +1,17 @@
+seccion,metrica,valor,moneda,n
+precio,p25,4200000.0,COP,40
+precio,mediana,4500000.0,COP,40
+precio,p75,5200000.0,COP,40
+precio,minimo,2400000.0,COP,40
+precio,maximo,6100000.0,COP,40
+m2,mediana_precio_m2,60135.14,COP,40
+m2,area_mediana_m2,73.0,m2,40
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,40
+estrato,estrato_mas_frecuente,5,,40
+habitaciones,1,4500000.0,COP,40
+ciudad,mediana_ciudad_referencia,3900000.0,COP,
+ciudad,mediana_m2_ciudad,56000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/el-retiro/los-salados,,
+fuente,licencia,CC BY 4.0,,

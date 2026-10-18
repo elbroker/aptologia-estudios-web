@@ -1,0 +1,17 @@
+seccion,metrica,valor,moneda,n
+precio,p25,358500000.0,COP,30
+precio,mediana,457500000.0,COP,30
+precio,p75,558750000.0,COP,30
+precio,minimo,235000000.0,COP,30
+precio,maximo,680000000.0,COP,30
+m2,mediana_precio_m2,5640782.83,COP,30
+m2,area_mediana_m2,67.3,m2,30
+banos,mediana_banos,2.0,,
+estrato,estrato_mas_frecuente,3,,30
+habitaciones,2,320000000.0,COP,11
+habitaciones,3+,552500000.0,COP,18
+ciudad,mediana_ciudad_referencia,470000000.0,COP,
+ciudad,mediana_m2_ciudad,6766968.33,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/itagui/villa-paula,,
+fuente,licencia,CC BY 4.0,,

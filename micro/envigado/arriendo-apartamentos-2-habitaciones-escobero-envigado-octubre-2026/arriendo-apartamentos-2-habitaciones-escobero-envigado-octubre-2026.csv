@@ -1,0 +1,17 @@
+seccion,metrica,valor,moneda,n
+precio,p25,3750000.0,COP,69
+precio,mediana,4200000.0,COP,69
+precio,p75,4700000.0,COP,69
+precio,minimo,2750000.0,COP,69
+precio,maximo,7750000.0,COP,69
+m2,mediana_precio_m2,55645.16,COP,69
+m2,area_mediana_m2,77.0,m2,69
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,65
+estrato,estrato_mas_frecuente,5,,69
+habitaciones,2,4200000.0,COP,69
+ciudad,mediana_ciudad_referencia,4200000.0,COP,
+ciudad,mediana_m2_ciudad,52343.75,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/envigado/escobero,,
+fuente,licencia,CC BY 4.0,,

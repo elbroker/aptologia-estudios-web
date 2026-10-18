@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,2387500.0,COP,50
+precio,mediana,3200000.0,COP,50
+precio,p75,4075000.0,COP,50
+precio,minimo,1300000.0,COP,50
+precio,maximo,7300000.0,COP,50
+m2,mediana_precio_m2,39583.33,COP,47
+m2,area_mediana_m2,80.0,m2,47
+admin,mediana_admin_mes,495000.0,COP,19
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,98.0,%,50
+estrato,estrato_mas_frecuente,5,,50
+habitaciones,2,3200000.0,COP,50
+ciudad,mediana_ciudad_referencia,2300000.0,COP,
+ciudad,mediana_m2_ciudad,32758.62,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/barranquilla/riomar,,
+fuente,licencia,CC BY 4.0,,

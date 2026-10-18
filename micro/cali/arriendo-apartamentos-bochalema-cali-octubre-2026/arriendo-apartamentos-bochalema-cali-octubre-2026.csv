@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,1450000.0,COP,85
+precio,mediana,1600000.0,COP,85
+precio,p75,1897000.0,COP,85
+precio,minimo,970000.0,COP,85
+precio,maximo,3300000.0,COP,85
+m2,mediana_precio_m2,25819.89,COP,84
+m2,area_mediana_m2,62.0,m2,84
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,90.2,%,61
+estrato,estrato_mas_frecuente,4,,85
+habitaciones,2,1550000.0,COP,51
+habitaciones,3+,1600000.0,COP,33
+ciudad,mediana_ciudad_referencia,1900000.0,COP,
+ciudad,mediana_m2_ciudad,30000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/cali/bochalema,,
+fuente,licencia,CC BY 4.0,,

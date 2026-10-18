@@ -1,0 +1,20 @@
+seccion,metrica,valor,moneda,n
+precio,p25,351250000.0,COP,74
+precio,mediana,472500000.0,COP,74
+precio,p75,580000000.0,COP,74
+precio,minimo,175000000.0,COP,74
+precio,maximo,2150000000.0,COP,74
+m2,mediana_precio_m2,5307274.25,COP,74
+m2,area_mediana_m2,90.2,m2,74
+admin,mediana_admin_mes,560000.0,COP,53
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,97.0,%,66
+estrato,estrato_mas_frecuente,5,,74
+habitaciones,1,250000000.0,COP,11
+habitaciones,2,455000000.0,COP,16
+habitaciones,3+,550000000.0,COP,47
+ciudad,mediana_ciudad_referencia,430000000.0,COP,
+ciudad,mediana_m2_ciudad,4650000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/cali/urbanizacion-la-flora,,
+fuente,licencia,CC BY 4.0,,

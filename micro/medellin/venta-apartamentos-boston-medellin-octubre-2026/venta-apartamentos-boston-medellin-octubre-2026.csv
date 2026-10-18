@@ -1,0 +1,20 @@
+seccion,metrica,valor,moneda,n
+precio,p25,292500000.0,COP,159
+precio,mediana,350000000.0,COP,159
+precio,p75,420000000.0,COP,159
+precio,minimo,175000000.0,COP,159
+precio,maximo,1580000000.0,COP,159
+m2,mediana_precio_m2,5200000.0,COP,155
+m2,area_mediana_m2,66.0,m2,155
+admin,mediana_admin_mes,320000.0,COP,69
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,44.2,%,95
+estrato,estrato_mas_frecuente,4,,150
+habitaciones,1,335000000.0,COP,11
+habitaciones,2,320000000.0,COP,62
+habitaciones,3+,382500000.0,COP,86
+ciudad,mediana_ciudad_referencia,840000000.0,COP,
+ciudad,mediana_m2_ciudad,7500000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/medellin/boston,,
+fuente,licencia,CC BY 4.0,,

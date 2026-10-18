@@ -1,0 +1,16 @@
+seccion,metrica,valor,moneda,n
+precio,p25,592500000.0,COP,38
+precio,mediana,865000000.0,COP,38
+precio,p75,1187500000.0,COP,38
+precio,minimo,240000000.0,COP,38
+precio,maximo,2200000000.0,COP,38
+m2,mediana_precio_m2,3575435.78,COP,36
+m2,area_mediana_m2,245.5,m2,36
+banos,mediana_banos,3.0,,
+estrato,estrato_mas_frecuente,4,,37
+habitaciones,3+,880000000.0,COP,35
+ciudad,mediana_ciudad_referencia,1100000000.0,COP,
+ciudad,mediana_m2_ciudad,4166666.67,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/casas-en-venta/pereira/san-jose-sur,,
+fuente,licencia,CC BY 4.0,,

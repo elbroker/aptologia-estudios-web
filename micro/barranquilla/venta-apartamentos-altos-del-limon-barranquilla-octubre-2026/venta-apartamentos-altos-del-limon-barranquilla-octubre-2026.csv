@@ -1,0 +1,19 @@
+seccion,metrica,valor,moneda,n
+precio,p25,499500000.0,COP,100
+precio,mediana,680000000.0,COP,100
+precio,p75,1212500000.0,COP,100
+precio,minimo,240000000.0,COP,100
+precio,maximo,2100000000.0,COP,100
+m2,mediana_precio_m2,5893997.45,COP,100
+m2,area_mediana_m2,119.0,m2,100
+admin,mediana_admin_mes,756500.0,COP,88
+banos,mediana_banos,3.0,,
+parqueadero,pct_con_parqueadero,100.0,%,99
+estrato,estrato_mas_frecuente,6,,100
+habitaciones,2,495000000.0,COP,15
+habitaciones,3+,750000000.0,COP,85
+ciudad,mediana_ciudad_referencia,450000000.0,COP,
+ciudad,mediana_m2_ciudad,4531706.87,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/barranquilla/altos-del-limon,,
+fuente,licencia,CC BY 4.0,,

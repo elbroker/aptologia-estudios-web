@@ -1,0 +1,197 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arriendo directo con el dueño o con inmobiliaria: qué parte de la oferta en Colombia publica el propietario (octubre 2026) | Aptología</title><meta name="description" content="Solo el 5,2 % de los avisos de arriendo de vivienda en Colombia los publica directamente el dueño; el resto pasa por inmobiliarias o agentes. La proporción va de 19,9 % en La Calera a 0,2 % en El Retiro; en Bogotá es 14,2 %. Emparejando por ciudad y habitaciones, el aviso del dueño pide un 4,6 %…">
+<link rel="canonical" href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026"><style>body{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#222}img{max-width:100%}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:4px 8px}a{color:#0b5}header,footer{color:#555;font-size:15px}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Arriendo directo con el dueño o con inmobiliaria: qué parte de la oferta en Colombia publica el propietario (octubre 2026)", "description": "Solo el 5,2 % de los avisos de arriendo de vivienda en Colombia los publica directamente el dueño; el resto pasa por inmobiliarias o agentes. La proporción va de 19,9 % en La Calera a 0,2 % en El Retiro; en Bogotá es 14,2 %. Emparejando por ciudad y habitaciones, el aviso del dueño pide un 4,6 % menos por m².", "url": "https://elbroker.github.io/aptologia-estudios-web/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026/", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "inLanguage": "es", "creator": {"@type": "Person", "name": "Daniel Mauricio Pinzón Pineda", "sameAs": "https://orcid.org/0009-0007-5142-366X"}, "publisher": {"@type": "Organization", "name": "Aptología", "url": "https://www.aptologia.com"}, "spatialCoverage": "Colombia", "temporalCoverage": "2026", "sameAs": ["https://github.com/elbroker/aptologia-datos/tree/main/estudios/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026", "https://doi.org/10.5281/zenodo.23460764", "https://huggingface.co/datasets/aptologia/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026", "https://zenodo.org/records/23460764"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://elbroker.github.io/aptologia-estudios-web/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026/data/arriendo_directo_del_dueno_vs_inmobiliaria_colombia_2026_datos.csv"}], "identifier": "https://doi.org/10.5281/zenodo.23460764"}</script></head><body>
+<header><a href="https://elbroker.github.io/aptologia-estudios-web/">Estudios de vivienda en Colombia — Aptología</a></header><main><h1>Arriendo directo con el dueño o con inmobiliaria: qué parte de la oferta en Colombia publica el propietario (octubre 2026)</h1>
+<p><em>Estudio con datos abiertos (CC BY 4.0). Versión original: <a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026">https://github.com/elbroker/aptologia-datos/tree/main/estudios/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026</a> · DOI: <a href="https://doi.org/10.5281/zenodo.23460764">10.5281/zenodo.23460764</a></em></p>
+<p><strong>Solo el 5,2 % de los avisos de arriendo de vivienda en Colombia los publica directamente el dueño; el resto pasa por inmobiliarias o agentes.</strong> La proporción va de 19,9 % en La Calera a 0,2 % en El Retiro; en Bogotá es 14,2 %. Emparejando por ciudad y habitaciones, el aviso del dueño pide un 4,6 % menos por m².</p>
+<p><em>Resumen: analizamos 89.696 avisos de arriendo con el dato de anunciante en Colombia.</em></p>
+<p><strong>Actualizado:</strong> 18 de octubre de 2026 (datos del 18 de octubre de 2026) · <strong>Próxima actualización:</strong> mensual.</p>
+<p><img alt="Avisos de arriendo publicados por el dueño" src="charts/arriendo-directo-por-ciudad.png" /></p>
+<h2>Resumen</h2>
+<table>
+<thead>
+<tr>
+<th>Indicador</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Avisos del dueño (Colombia)</td>
+<td>5,2 %</td>
+</tr>
+<tr>
+<td>Mayor proporción</td>
+<td>La Calera: 19,9 %</td>
+</tr>
+<tr>
+<td>Menor</td>
+<td>El Retiro: 0,2 %</td>
+</tr>
+<tr>
+<td>Diferencia de canon por m² (dueño vs. inmobiliaria)</td>
+<td>-4,6 %</td>
+</tr>
+</tbody>
+</table>
+<h2>Proporción por ciudad (200 avisos o más)</h2>
+<table>
+<thead>
+<tr>
+<th>Ciudad</th>
+<th>Avisos del dueño</th>
+<th>Avisos analizados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>La Calera</td>
+<td>19,9 %</td>
+<td>357</td>
+</tr>
+<tr>
+<td>Cajicá</td>
+<td>19,4 %</td>
+<td>940</td>
+</tr>
+<tr>
+<td>Chía</td>
+<td>18,0 %</td>
+<td>1.251</td>
+</tr>
+<tr>
+<td>Ibagué</td>
+<td>15,4 %</td>
+<td>319</td>
+</tr>
+<tr>
+<td>Bogotá</td>
+<td>14,2 %</td>
+<td>18.724</td>
+</tr>
+<tr>
+<td>Cali</td>
+<td>10,6 %</td>
+<td>2.674</td>
+</tr>
+<tr>
+<td>Santa Marta</td>
+<td>8,8 %</td>
+<td>845</td>
+</tr>
+<tr>
+<td>Madrid</td>
+<td>8,2 %</td>
+<td>279</td>
+</tr>
+<tr>
+<td>Cartagena</td>
+<td>7,3 %</td>
+<td>2.334</td>
+</tr>
+<tr>
+<td>Floridablanca</td>
+<td>6,5 %</td>
+<td>459</td>
+</tr>
+<tr>
+<td>Armenia</td>
+<td>5,9 %</td>
+<td>546</td>
+</tr>
+<tr>
+<td>Bucaramanga</td>
+<td>5,3 %</td>
+<td>697</td>
+</tr>
+<tr>
+<td>Itagüí</td>
+<td>4,2 %</td>
+<td>1.020</td>
+</tr>
+<tr>
+<td>Barranquilla</td>
+<td>3,4 %</td>
+<td>5.071</td>
+</tr>
+<tr>
+<td>Bello</td>
+<td>2,2 %</td>
+<td>1.202</td>
+</tr>
+<tr>
+<td>El Carmen de Viboral</td>
+<td>2,0 %</td>
+<td>202</td>
+</tr>
+<tr>
+<td>Manizales</td>
+<td>1,8 %</td>
+<td>544</td>
+</tr>
+<tr>
+<td>Pereira</td>
+<td>1,3 %</td>
+<td>2.747</td>
+</tr>
+<tr>
+<td>Rionegro</td>
+<td>1,1 %</td>
+<td>4.787</td>
+</tr>
+<tr>
+<td>Sabaneta</td>
+<td>1,0 %</td>
+<td>4.172</td>
+</tr>
+<tr>
+<td>La Ceja</td>
+<td>1,0 %</td>
+<td>627</td>
+</tr>
+<tr>
+<td>La Estrella</td>
+<td>0,9 %</td>
+<td>541</td>
+</tr>
+<tr>
+<td>Medellín</td>
+<td>0,7 %</td>
+<td>26.263</td>
+</tr>
+<tr>
+<td>Envigado</td>
+<td>0,5 %</td>
+<td>9.662</td>
+</tr>
+<tr>
+<td>Cúcuta</td>
+<td>0,3 %</td>
+<td>612</td>
+</tr>
+<tr>
+<td>El Retiro</td>
+<td>0,2 %</td>
+<td>1.105</td>
+</tr>
+</tbody>
+</table>
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿Cuántos arriendos en Colombia publica directamente el dueño?</strong>
+El 5,2 % de los avisos de arriendo de vivienda (octubre de 2026).</p>
+<p><strong>¿Es más barato arrendar directo con el dueño?</strong>
+En la oferta, los avisos del dueño piden un 4,6 % menos por m² que los de inmobiliaria comparables (misma ciudad y habitaciones; 16 celdas).</p>
+<h2>Metodología</h2>
+<ul>
+<li><strong>Fuente:</strong> exportes nocturnos de la base de datos de Aptología (aptologia.com) del 18 de octubre de 2026: avisos vigentes de vivienda en portales inmobiliarios de 13 países, recogidos por Aptología y vistos en línea entre el 11 y el 18 de octubre de 2026. Corte: 18 de octubre de 2026.</li>
+<li><strong>Depuración:</strong> se eliminan duplicados exactos (misma ciudad, zona, tipo, precio, moneda, área, habitaciones y baños) y los precios fuera del percentil 1–99 de cada país, operación, moneda y tipo; el precio por m² usa solo avisos con área declarada entre 12 y 2.000 m² y también se recorta al P1–P99.</li>
+<li><strong>Qué se mide:</strong> precios pedidos (publicados), no precios de cierre. En arriendo, el canon mensual sin administración, gastos comunes ni condominio.</li>
+<li><strong>Muestra mínima:</strong> cada cifra publicada se apoya en al menos 30 avisos; las celdas con menos se omiten.</li>
+<li><strong>Colombia:</strong> Precios en pesos colombianos, sin conversión de moneda. Los indicadores de amoblado, mascotas, conjunto cerrado, balcón y aviso directo del dueño solo existen en arriendo y vienen de los portales.</li>
+<li><strong>Dueño directo:</strong> marca <code>directo</code> del portal (el aviso lo publica el propietario). Para la proporción por ciudad se exigen 200 avisos.</li>
+<li><strong>Limitaciones:</strong> la cobertura depende de los portales que recorre Aptología en cada país y es mayor en las ciudades grandes y en los segmentos medio-alto y alto; el área es la que declara el aviso, sin verificar; los nombres de zona vienen de los portales.</li>
+<li><strong>Privacidad:</strong> solo se publican agregados; no se publica ningún dato personal, enlace a avisos ni nombre de anunciante.</li>
+<li><strong>Datos abiertos:</strong> <a href="data/arriendo_directo_del_dueno_vs_inmobiliaria_colombia_2026_datos.csv">datos.csv</a>, licencia CC BY 4.0.</li>
+</ul>
+<h2>Cómo citar</h2>
+<p>Pinzón Pineda, D. M. (2026). <em>Arriendo directo con el dueño o con inmobiliaria: qué parte de la oferta en Colombia publica el propietario (octubre 2026)</em>. Aptología (aptologia.com). https://github.com/elbroker/aptologia-datos/tree/main/estudios/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026. Datos: datos.csv, licencia CC BY 4.0.</p><h2>Enlaces</h2><ul><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026">Estudio en aptologia.com</a></li><li><a href="https://doi.org/10.5281/zenodo.23460764">DOI 10.5281/zenodo.23460764</a></li><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026">Datos en GitHub</a></li><li><a href="https://huggingface.co/datasets/aptologia/arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026">Hugging Face</a></li><li><a href="https://www.kaggle.com/datasets/aptologia/arriendo-directo-dueno-inmobiliaria-colombia-2026">Kaggle</a></li><li><a href="arriendo-directo-del-dueno-vs-inmobiliaria-colombia-2026.pdf">PDF</a></li></ul></main><footer>Autor: Daniel Mauricio Pinzón Pineda (<a href="https://orcid.org/0009-0007-5142-366X">ORCID</a>), <a href="https://www.aptologia.com">Aptología</a>. Licencia CC BY 4.0.</footer></body></html>

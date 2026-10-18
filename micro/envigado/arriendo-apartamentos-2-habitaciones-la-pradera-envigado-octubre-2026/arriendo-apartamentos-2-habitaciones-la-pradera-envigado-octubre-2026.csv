@@ -1,0 +1,17 @@
+seccion,metrica,valor,moneda,n
+precio,p25,3925000.0,COP,36
+precio,mediana,4325000.0,COP,36
+precio,p75,4675000.0,COP,36
+precio,minimo,2950000.0,COP,36
+precio,maximo,8350000.0,COP,36
+m2,mediana_precio_m2,50864.15,COP,36
+m2,area_mediana_m2,82.0,m2,36
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,35
+estrato,estrato_mas_frecuente,5,,36
+habitaciones,2,4325000.0,COP,36
+ciudad,mediana_ciudad_referencia,4200000.0,COP,
+ciudad,mediana_m2_ciudad,52343.75,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/envigado/la-pradera,,
+fuente,licencia,CC BY 4.0,,

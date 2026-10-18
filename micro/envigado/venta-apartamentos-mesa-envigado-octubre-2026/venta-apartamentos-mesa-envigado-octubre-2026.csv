@@ -1,0 +1,20 @@
+seccion,metrica,valor,moneda,n
+precio,p25,582500000.0,COP,142
+precio,mediana,775000000.0,COP,142
+precio,p75,954875000.0,COP,142
+precio,minimo,280000000.0,COP,142
+precio,maximo,2880000000.0,COP,142
+m2,mediana_precio_m2,7520460.44,COP,142
+m2,area_mediana_m2,100.5,m2,142
+admin,mediana_admin_mes,490000.0,COP,81
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,93.5,%,124
+estrato,estrato_mas_frecuente,5,,135
+habitaciones,1,770000000.0,COP,7
+habitaciones,2,690000000.0,COP,35
+habitaciones,3+,800000000.0,COP,100
+ciudad,mediana_ciudad_referencia,820000000.0,COP,
+ciudad,mediana_m2_ciudad,8452380.95,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/envigado/mesa,,
+fuente,licencia,CC BY 4.0,,

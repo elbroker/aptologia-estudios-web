@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,540000000.0,COP,30
+precio,mediana,590000000.0,COP,30
+precio,p75,685000000.0,COP,30
+precio,minimo,420000000.0,COP,30
+precio,maximo,960000000.0,COP,30
+m2,mediana_precio_m2,7428104.58,COP,30
+m2,area_mediana_m2,85.0,m2,30
+admin,mediana_admin_mes,335000.0,COP,19
+banos,mediana_banos,2.0,,
+estrato,estrato_mas_frecuente,6,,30
+habitaciones,2,545000000.0,COP,12
+habitaciones,3+,670000000.0,COP,15
+ciudad,mediana_ciudad_referencia,450000000.0,COP,
+ciudad,mediana_m2_ciudad,5653955.81,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/manizales/san-marcel,,
+fuente,licencia,CC BY 4.0,,

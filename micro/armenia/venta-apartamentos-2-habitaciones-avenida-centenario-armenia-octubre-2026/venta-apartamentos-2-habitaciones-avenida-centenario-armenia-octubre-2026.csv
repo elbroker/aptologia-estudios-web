@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,378750000.0,COP,56
+precio,mediana,460000000.0,COP,56
+precio,p75,575000000.0,COP,56
+precio,minimo,215000000.0,COP,56
+precio,maximo,1500000000.0,COP,56
+m2,mediana_precio_m2,6897435.9,COP,56
+m2,area_mediana_m2,65.0,m2,56
+admin,mediana_admin_mes,351500.0,COP,30
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,53
+estrato,estrato_mas_frecuente,5,,56
+habitaciones,2,460000000.0,COP,56
+ciudad,mediana_ciudad_referencia,350000000.0,COP,
+ciudad,mediana_m2_ciudad,5821917.81,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/armenia/avenida-centenario,,
+fuente,licencia,CC BY 4.0,,

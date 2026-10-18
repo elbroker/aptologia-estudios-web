@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,305000000.0,COP,35
+precio,mediana,350000000.0,COP,35
+precio,p75,405000000.0,COP,35
+precio,minimo,240000000.0,COP,35
+precio,maximo,640000000.0,COP,35
+m2,mediana_precio_m2,3897487.83,COP,32
+m2,area_mediana_m2,84.1,m2,32
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,84.8,%,33
+estrato,estrato_mas_frecuente,3,,35
+habitaciones,2,323000000.0,COP,8
+habitaciones,3+,360000000.0,COP,27
+ciudad,mediana_ciudad_referencia,390000000.0,COP,
+ciudad,mediana_m2_ciudad,3718518.52,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/monteria/monteverde,,
+fuente,licencia,CC BY 4.0,,

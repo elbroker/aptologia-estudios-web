@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,340000000.0,COP,163
+precio,mediana,480000000.0,COP,163
+precio,p75,646000000.0,COP,163
+precio,minimo,217000000.0,COP,163
+precio,maximo,3000000000.0,COP,163
+m2,mediana_precio_m2,7165178.57,COP,162
+m2,area_mediana_m2,69.0,m2,162
+admin,mediana_admin_mes,290000.0,COP,83
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,90.4,%,146
+estrato,estrato_mas_frecuente,4,,152
+habitaciones,3+,480000000.0,COP,163
+ciudad,mediana_ciudad_referencia,540000000.0,COP,
+ciudad,mediana_m2_ciudad,7058823.53,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/rionegro/el-porvenir,,
+fuente,licencia,CC BY 4.0,,

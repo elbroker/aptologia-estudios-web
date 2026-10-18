@@ -1,0 +1,16 @@
+seccion,metrica,valor,moneda,n
+precio,p25,3250000.0,COP,69
+precio,mediana,3600000.0,COP,69
+precio,p75,4200000.0,COP,69
+precio,minimo,2450777.0,COP,69
+precio,maximo,6450000.0,COP,69
+m2,mediana_precio_m2,72708.33,COP,66
+m2,area_mediana_m2,49.0,m2,66
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,92.6,%,68
+estrato,estrato_mas_frecuente,5,,67
+ciudad,mediana_ciudad_referencia,2800000.0,COP,
+ciudad,mediana_m2_ciudad,60000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/apartaestudios/medellin/ciudad-del-rio,,
+fuente,licencia,CC BY 4.0,,

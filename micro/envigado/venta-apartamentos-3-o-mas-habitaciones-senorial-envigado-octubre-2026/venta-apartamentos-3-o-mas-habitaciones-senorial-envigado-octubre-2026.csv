@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,475000000.0,COP,75
+precio,mediana,575000000.0,COP,75
+precio,p75,717500000.0,COP,75
+precio,minimo,300000000.0,COP,75
+precio,maximo,1230000000.0,COP,75
+m2,mediana_precio_m2,7625000.0,COP,75
+m2,area_mediana_m2,80.0,m2,75
+admin,mediana_admin_mes,447250.0,COP,54
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,95.5,%,67
+estrato,estrato_mas_frecuente,4,,62
+habitaciones,3+,575000000.0,COP,75
+ciudad,mediana_ciudad_referencia,850000000.0,COP,
+ciudad,mediana_m2_ciudad,8101265.82,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/envigado/senorial,,
+fuente,licencia,CC BY 4.0,,

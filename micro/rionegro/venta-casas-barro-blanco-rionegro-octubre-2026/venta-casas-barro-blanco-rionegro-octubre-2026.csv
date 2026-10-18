@@ -1,0 +1,18 @@
+seccion,metrica,valor,moneda,n
+precio,p25,1200000000.0,COP,86
+precio,mediana,1300000000.0,COP,86
+precio,p75,1442500000.0,COP,86
+precio,minimo,450000000.0,COP,86
+precio,maximo,5500000000.0,COP,86
+m2,mediana_precio_m2,5772727.27,COP,83
+m2,area_mediana_m2,230.0,m2,83
+admin,mediana_admin_mes,420000.0,COP,27
+banos,mediana_banos,4.0,,
+parqueadero,pct_con_parqueadero,98.7,%,79
+estrato,estrato_mas_frecuente,5,,83
+habitaciones,3+,1300000000.0,COP,84
+ciudad,mediana_ciudad_referencia,2200000000.0,COP,
+ciudad,mediana_m2_ciudad,6689814.81,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/casas-en-venta/rionegro/barro-blanco,,
+fuente,licencia,CC BY 4.0,,

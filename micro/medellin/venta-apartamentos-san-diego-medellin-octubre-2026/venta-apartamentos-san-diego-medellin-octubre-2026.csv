@@ -1,0 +1,20 @@
+seccion,metrica,valor,moneda,n
+precio,p25,455000000.0,COP,99
+precio,mediana,620000000.0,COP,99
+precio,p75,750000000.0,COP,99
+precio,minimo,185000000.0,COP,99
+precio,maximo,1290000000.0,COP,99
+m2,mediana_precio_m2,7757309.94,COP,98
+m2,area_mediana_m2,76.3,m2,98
+admin,mediana_admin_mes,423000.0,COP,59
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,91.9,%,86
+estrato,estrato_mas_frecuente,5,,96
+habitaciones,1,800000000.0,COP,7
+habitaciones,2,415000000.0,COP,24
+habitaciones,3+,655000000.0,COP,68
+ciudad,mediana_ciudad_referencia,840000000.0,COP,
+ciudad,mediana_m2_ciudad,7500000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/venta/medellin/san-diego,,
+fuente,licencia,CC BY 4.0,,

@@ -1,0 +1,17 @@
+seccion,metrica,valor,moneda,n
+precio,p25,1521000.0,COP,73
+precio,mediana,1650000.0,COP,73
+precio,p75,2300000.0,COP,73
+precio,minimo,1202000.0,COP,73
+precio,maximo,5000000.0,COP,73
+m2,mediana_precio_m2,30000.0,COP,73
+m2,area_mediana_m2,57.0,m2,73
+admin,mediana_admin_mes,181000.0,COP,53
+banos,mediana_banos,2.0,,
+estrato,estrato_mas_frecuente,3,,73
+habitaciones,2,1650000.0,COP,73
+ciudad,mediana_ciudad_referencia,1814000.0,COP,
+ciudad,mediana_m2_ciudad,30357.14,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/arriendo/atlantico,,
+fuente,licencia,CC BY 4.0,,

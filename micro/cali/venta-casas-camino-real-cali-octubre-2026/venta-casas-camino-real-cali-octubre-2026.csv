@@ -1,0 +1,17 @@
+seccion,metrica,valor,moneda,n
+precio,p25,600000000.0,COP,36
+precio,mediana,740000000.0,COP,36
+precio,p75,796250000.0,COP,36
+precio,minimo,420000000.0,COP,36
+precio,maximo,1090000000.0,COP,36
+m2,mediana_precio_m2,3119642.86,COP,36
+m2,area_mediana_m2,239.0,m2,36
+banos,mediana_banos,4.0,,
+parqueadero,pct_con_parqueadero,97.1,%,34
+estrato,estrato_mas_frecuente,5,,36
+habitaciones,3+,740000000.0,COP,36
+ciudad,mediana_ciudad_referencia,930000000.0,COP,
+ciudad,mediana_m2_ciudad,3400000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/casas-en-venta/cali/camino-real,,
+fuente,licencia,CC BY 4.0,,

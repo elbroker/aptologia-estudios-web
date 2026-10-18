@@ -1,0 +1,16 @@
+seccion,metrica,valor,moneda,n
+precio,p25,3800000.0,COP,30
+precio,mediana,4200000.0,COP,30
+precio,p75,4475000.0,COP,30
+precio,minimo,2900000.0,COP,30
+precio,maximo,7000000.0,COP,30
+m2,mediana_precio_m2,63089.32,COP,30
+m2,area_mediana_m2,67.0,m2,30
+banos,mediana_banos,2.0,,
+parqueadero,pct_con_parqueadero,100.0,%,30
+estrato,estrato_mas_frecuente,6,,30
+ciudad,mediana_ciudad_referencia,2800000.0,COP,
+ciudad,mediana_m2_ciudad,60000.0,COP,
+fuente,fecha_datos,2026-10-18,,
+fuente,atribucion,https://www.aptologia.com/apartaestudios/medellin/los-balsos,,
+fuente,licencia,CC BY 4.0,,
