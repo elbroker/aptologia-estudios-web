@@ -1,0 +1,491 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cuánto varía el precio del metro cuadrado dentro de cada ciudad de Latinoamérica y Portugal: dispersión en 53 ciudades (octubre 2026) | Aptología</title><meta name="description" content="En Guayaquil (Ecuador) el metro cuadrado del apartamento caro típico (percentil 75) cuesta 1,98 veces el del barato típico (percentil 25), la mayor dispersión de 53 ciudades; en Tocancipá (Colombia), solo 1,18 veces. La mediana de las 53 ciudades es 1,46 veces.">
+<link rel="canonical" href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/dispersion-del-precio-m2-ciudades-latinoamerica-2026"><style>body{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#222}img{max-width:100%}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:4px 8px}a{color:#0b5}header,footer{color:#555;font-size:15px}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Cuánto varía el precio del metro cuadrado dentro de cada ciudad de Latinoamérica y Portugal: dispersión en 53 ciudades (octubre 2026)", "description": "En Guayaquil (Ecuador) el metro cuadrado del apartamento caro típico (percentil 75) cuesta 1,98 veces el del barato típico (percentil 25), la mayor dispersión de 53 ciudades; en Tocancipá (Colombia), solo 1,18 veces. La mediana de las 53 ciudades es 1,46 veces.", "url": "https://elbroker.github.io/aptologia-estudios-web/dispersion-del-precio-m2-ciudades-latinoamerica-2026/", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "inLanguage": "es", "creator": {"@type": "Person", "name": "Daniel Mauricio Pinzón Pineda", "sameAs": "https://orcid.org/0009-0007-5142-366X"}, "publisher": {"@type": "Organization", "name": "Aptología", "url": "https://www.aptologia.com"}, "spatialCoverage": "Colombia", "temporalCoverage": "2026", "sameAs": ["https://github.com/elbroker/aptologia-datos/tree/main/estudios/dispersion-del-precio-m2-ciudades-latinoamerica-2026", "https://doi.org/10.5281/zenodo.23475781", "https://huggingface.co/datasets/aptologia/dispersion-del-precio-m2-ciudades-latinoamerica-2026", "https://zenodo.org/records/23475781"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://elbroker.github.io/aptologia-estudios-web/dispersion-del-precio-m2-ciudades-latinoamerica-2026/data/dispersion_del_precio_m2_ciudades_latinoamerica_2026_datos.csv"}], "identifier": "https://doi.org/10.5281/zenodo.23475781"}</script></head><body>
+<header><a href="https://elbroker.github.io/aptologia-estudios-web/">Estudios de vivienda en Colombia — Aptología</a></header><main><h1>Cuánto varía el precio del metro cuadrado dentro de cada ciudad de Latinoamérica y Portugal: dispersión en 53 ciudades (octubre 2026)</h1>
+<p><em>Estudio con datos abiertos (CC BY 4.0). Versión original: <a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/dispersion-del-precio-m2-ciudades-latinoamerica-2026">https://github.com/elbroker/aptologia-datos/tree/main/estudios/dispersion-del-precio-m2-ciudades-latinoamerica-2026</a> · DOI: <a href="https://doi.org/10.5281/zenodo.23475781">10.5281/zenodo.23475781</a></em></p>
+<p><strong>En Guayaquil (Ecuador) el metro cuadrado del apartamento caro típico (percentil 75) cuesta 1,98 veces el del barato típico (percentil 25), la mayor dispersión de 53 ciudades; en Tocancipá (Colombia), solo 1,18 veces.</strong> La mediana de las 53 ciudades es 1,46 veces.</p>
+<p><em>Resumen: comparamos los percentiles del precio por m² de 177.789 apartamentos en venta en 53 ciudades con 200 avisos o más.</em></p>
+<p><strong>Actualizado:</strong> 18 de octubre de 2026 (datos del 18 de octubre de 2026) · <strong>Próxima actualización:</strong> mensual.</p>
+<p><img alt="Dispersión del m² por ciudad" src="charts/dispersion-m2-latam.png" /></p>
+<h2>Resumen</h2>
+<table>
+<thead>
+<tr>
+<th>Indicador</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mayor dispersión</td>
+<td>Guayaquil (Ecuador): 1,98×</td>
+</tr>
+<tr>
+<td>Menor dispersión</td>
+<td>Tocancipá (Colombia): 1,18×</td>
+</tr>
+<tr>
+<td>Mediana de ciudades</td>
+<td>1,46×</td>
+</tr>
+</tbody>
+</table>
+<h2>Percentiles del precio por m² por ciudad</h2>
+<table>
+<thead>
+<tr>
+<th>Ciudad</th>
+<th>P25 (USD/m²)</th>
+<th>Mediana</th>
+<th>P75</th>
+<th>P75 ÷ P25</th>
+<th>Avisos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Guayaquil (Ecuador)</td>
+<td>USD 932</td>
+<td>USD 1.364</td>
+<td>USD 1.842</td>
+<td>1,98</td>
+<td>915</td>
+</tr>
+<tr>
+<td>Caracas (Venezuela)</td>
+<td>USD 1.029</td>
+<td>USD 1.400</td>
+<td>USD 2.013</td>
+<td>1,96</td>
+<td>1.464</td>
+</tr>
+<tr>
+<td>Santa Marta (Colombia)</td>
+<td>USD 1.772</td>
+<td>USD 2.740</td>
+<td>USD 3.421</td>
+<td>1,93</td>
+<td>3.779</td>
+</tr>
+<tr>
+<td>Quito (Ecuador)</td>
+<td>USD 759</td>
+<td>USD 1.000</td>
+<td>USD 1.410</td>
+<td>1,86</td>
+<td>2.240</td>
+</tr>
+<tr>
+<td>Cartagena (Colombia)</td>
+<td>USD 1.787</td>
+<td>USD 2.469</td>
+<td>USD 3.311</td>
+<td>1,85</td>
+<td>5.774</td>
+</tr>
+<tr>
+<td>Ciudad de Buenos Aires (Argentina)</td>
+<td>USD 1.852</td>
+<td>USD 2.558</td>
+<td>USD 3.414</td>
+<td>1,84</td>
+<td>8.128</td>
+</tr>
+<tr>
+<td>Punta Cana (República Dominicana)</td>
+<td>USD 1.785</td>
+<td>USD 2.527</td>
+<td>USD 3.093</td>
+<td>1,73</td>
+<td>440</td>
+</tr>
+<tr>
+<td>Santo Domingo (República Dominicana)</td>
+<td>USD 1.500</td>
+<td>USD 1.975</td>
+<td>USD 2.507</td>
+<td>1,67</td>
+<td>6.196</td>
+</tr>
+<tr>
+<td>Barranquilla (Colombia)</td>
+<td>USD 1.124</td>
+<td>USD 1.424</td>
+<td>USD 1.819</td>
+<td>1,62</td>
+<td>7.532</td>
+</tr>
+<tr>
+<td>Armenia (Colombia)</td>
+<td>USD 1.285</td>
+<td>USD 1.675</td>
+<td>USD 2.066</td>
+<td>1,61</td>
+<td>2.278</td>
+</tr>
+<tr>
+<td>Santiago (Chile)</td>
+<td>USD 2.531</td>
+<td>USD 3.297</td>
+<td>USD 4.022</td>
+<td>1,59</td>
+<td>5.715</td>
+</tr>
+<tr>
+<td>Medellín (Colombia)</td>
+<td>USD 1.846</td>
+<td>USD 2.356</td>
+<td>USD 2.927</td>
+<td>1,59</td>
+<td>20.515</td>
+</tr>
+<tr>
+<td>Bogotá (Colombia)</td>
+<td>USD 1.826</td>
+<td>USD 2.282</td>
+<td>USD 2.889</td>
+<td>1,58</td>
+<td>31.265</td>
+</tr>
+<tr>
+<td>Manizales (Colombia)</td>
+<td>USD 1.393</td>
+<td>USD 1.776</td>
+<td>USD 2.203</td>
+<td>1,58</td>
+<td>2.788</td>
+</tr>
+<tr>
+<td>Pereira (Colombia)</td>
+<td>USD 1.360</td>
+<td>USD 1.728</td>
+<td>USD 2.116</td>
+<td>1,56</td>
+<td>4.376</td>
+</tr>
+<tr>
+<td>Cali (Colombia)</td>
+<td>USD 1.222</td>
+<td>USD 1.461</td>
+<td>USD 1.885</td>
+<td>1,54</td>
+<td>9.365</td>
+</tr>
+<tr>
+<td>Lisboa (Portugal)</td>
+<td>USD 6.735</td>
+<td>USD 8.383</td>
+<td>USD 10.273</td>
+<td>1,53</td>
+<td>1.548</td>
+</tr>
+<tr>
+<td>Punta del Este (Uruguay)</td>
+<td>USD 2.955</td>
+<td>USD 3.604</td>
+<td>USD 4.472</td>
+<td>1,51</td>
+<td>4.562</td>
+</tr>
+<tr>
+<td>Santa Cruz de la Sierra (Bolivia)</td>
+<td>USD 1.000</td>
+<td>USD 1.241</td>
+<td>USD 1.512</td>
+<td>1,51</td>
+<td>1.679</td>
+</tr>
+<tr>
+<td>Bucaramanga (Colombia)</td>
+<td>USD 1.208</td>
+<td>USD 1.466</td>
+<td>USD 1.819</td>
+<td>1,51</td>
+<td>2.439</td>
+</tr>
+<tr>
+<td>Villavicencio (Colombia)</td>
+<td>USD 1.122</td>
+<td>USD 1.321</td>
+<td>USD 1.676</td>
+<td>1,49</td>
+<td>347</td>
+</tr>
+<tr>
+<td>Cuenca (Ecuador)</td>
+<td>USD 1.000</td>
+<td>USD 1.238</td>
+<td>USD 1.492</td>
+<td>1,49</td>
+<td>331</td>
+</tr>
+<tr>
+<td>Santiago (República Dominicana)</td>
+<td>USD 1.278</td>
+<td>USD 1.496</td>
+<td>USD 1.898</td>
+<td>1,49</td>
+<td>522</td>
+</tr>
+<tr>
+<td>Oporto (Portugal)</td>
+<td>USD 4.878</td>
+<td>USD 5.820</td>
+<td>USD 7.218</td>
+<td>1,48</td>
+<td>607</td>
+</tr>
+<tr>
+<td>Ciudad de México (México)</td>
+<td>USD 2.370</td>
+<td>USD 2.894</td>
+<td>USD 3.507</td>
+<td>1,48</td>
+<td>7.519</td>
+</tr>
+<tr>
+<td>La Ceja (Colombia)</td>
+<td>USD 1.603</td>
+<td>USD 1.861</td>
+<td>USD 2.356</td>
+<td>1,47</td>
+<td>312</td>
+</tr>
+<tr>
+<td>Asunción (Paraguay)</td>
+<td>USD 1.524</td>
+<td>USD 1.869</td>
+<td>USD 2.224</td>
+<td>1,46</td>
+<td>4.307</td>
+</tr>
+<tr>
+<td>Montevideo (Uruguay)</td>
+<td>USD 2.500</td>
+<td>USD 3.040</td>
+<td>USD 3.634</td>
+<td>1,45</td>
+<td>4.466</td>
+</tr>
+<tr>
+<td>Rionegro (Colombia)</td>
+<td>USD 1.892</td>
+<td>USD 2.337</td>
+<td>USD 2.723</td>
+<td>1,44</td>
+<td>3.023</td>
+</tr>
+<tr>
+<td>Ibagué (Colombia)</td>
+<td>USD 1.095</td>
+<td>USD 1.332</td>
+<td>USD 1.571</td>
+<td>1,43</td>
+<td>1.217</td>
+</tr>
+<tr>
+<td>Lima (Perú)</td>
+<td>USD 1.792</td>
+<td>USD 2.137</td>
+<td>USD 2.537</td>
+<td>1,42</td>
+<td>6.152</td>
+</tr>
+<tr>
+<td>Cúcuta (Colombia)</td>
+<td>USD 954</td>
+<td>USD 1.116</td>
+<td>USD 1.331</td>
+<td>1,39</td>
+<td>561</td>
+</tr>
+<tr>
+<td>Piedecuesta (Colombia)</td>
+<td>USD 992</td>
+<td>USD 1.151</td>
+<td>USD 1.378</td>
+<td>1,39</td>
+<td>246</td>
+</tr>
+<tr>
+<td>Bello (Colombia)</td>
+<td>USD 1.451</td>
+<td>USD 1.716</td>
+<td>USD 2.009</td>
+<td>1,39</td>
+<td>2.319</td>
+</tr>
+<tr>
+<td>Floridablanca (Colombia)</td>
+<td>USD 1.366</td>
+<td>USD 1.626</td>
+<td>USD 1.879</td>
+<td>1,38</td>
+<td>919</td>
+</tr>
+<tr>
+<td>Arequipa (Perú)</td>
+<td>USD 1.047</td>
+<td>USD 1.227</td>
+<td>USD 1.440</td>
+<td>1,38</td>
+<td>488</td>
+</tr>
+<tr>
+<td>Zipaquirá (Colombia)</td>
+<td>USD 1.133</td>
+<td>USD 1.372</td>
+<td>USD 1.548</td>
+<td>1,37</td>
+<td>819</td>
+</tr>
+<tr>
+<td>La Estrella (Colombia)</td>
+<td>USD 1.725</td>
+<td>USD 2.023</td>
+<td>USD 2.356</td>
+<td>1,37</td>
+<td>561</td>
+</tr>
+<tr>
+<td>Cochabamba (Bolivia)</td>
+<td>USD 825</td>
+<td>USD 971</td>
+<td>USD 1.120</td>
+<td>1,36</td>
+<td>366</td>
+</tr>
+<tr>
+<td>La Paz (Bolivia)</td>
+<td>USD 931</td>
+<td>USD 1.099</td>
+<td>USD 1.261</td>
+<td>1,36</td>
+<td>462</td>
+</tr>
+<tr>
+<td>Itagüí (Colombia)</td>
+<td>USD 1.791</td>
+<td>USD 2.126</td>
+<td>USD 2.422</td>
+<td>1,35</td>
+<td>2.012</td>
+</tr>
+<tr>
+<td>Mosquera (Colombia)</td>
+<td>USD 1.295</td>
+<td>USD 1.548</td>
+<td>USD 1.738</td>
+<td>1,34</td>
+<td>817</td>
+</tr>
+<tr>
+<td>Envigado (Colombia)</td>
+<td>USD 2.262</td>
+<td>USD 2.656</td>
+<td>USD 3.018</td>
+<td>1,33</td>
+<td>5.735</td>
+</tr>
+<tr>
+<td>Cajicá (Colombia)</td>
+<td>USD 1.571</td>
+<td>USD 1.782</td>
+<td>USD 2.047</td>
+<td>1,30</td>
+<td>1.517</td>
+</tr>
+<tr>
+<td>Dosquebradas (Colombia)</td>
+<td>USD 1.290</td>
+<td>USD 1.456</td>
+<td>USD 1.678</td>
+<td>1,30</td>
+<td>607</td>
+</tr>
+<tr>
+<td>Chía (Colombia)</td>
+<td>USD 1.538</td>
+<td>USD 1.737</td>
+<td>USD 1.987</td>
+<td>1,29</td>
+<td>1.507</td>
+</tr>
+<tr>
+<td>Montería (Colombia)</td>
+<td>USD 1.027</td>
+<td>USD 1.168</td>
+<td>USD 1.321</td>
+<td>1,29</td>
+<td>288</td>
+</tr>
+<tr>
+<td>Jamundí (Colombia)</td>
+<td>USD 1.000</td>
+<td>USD 1.125</td>
+<td>USD 1.285</td>
+<td>1,29</td>
+<td>466</td>
+</tr>
+<tr>
+<td>Sabaneta (Colombia)</td>
+<td>USD 1.948</td>
+<td>USD 2.237</td>
+<td>USD 2.499</td>
+<td>1,28</td>
+<td>4.375</td>
+</tr>
+<tr>
+<td>Madrid (Colombia)</td>
+<td>USD 1.020</td>
+<td>USD 1.134</td>
+<td>USD 1.298</td>
+<td>1,27</td>
+<td>475</td>
+</tr>
+<tr>
+<td>El Retiro (Colombia)</td>
+<td>USD 2.604</td>
+<td>USD 2.929</td>
+<td>USD 3.252</td>
+<td>1,25</td>
+<td>618</td>
+</tr>
+<tr>
+<td>Soacha (Colombia)</td>
+<td>USD 974</td>
+<td>USD 1.066</td>
+<td>USD 1.156</td>
+<td>1,19</td>
+<td>566</td>
+</tr>
+<tr>
+<td>Tocancipá (Colombia)</td>
+<td>USD 1.067</td>
+<td>USD 1.145</td>
+<td>USD 1.257</td>
+<td>1,18</td>
+<td>264</td>
+</tr>
+</tbody>
+</table>
+<p>P25 y P75 = percentiles 25 y 75 del precio pedido por m², en la moneda mayoritaria de cada ciudad convertida a dólares (la razón no depende de la tasa).</p>
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿En qué ciudad latinoamericana varía más el precio del m²?</strong>
+En Guayaquil (Ecuador): el P75 es 1,98 veces el P25.</p>
+<p><strong>¿Dónde es más homogéneo?</strong>
+En Tocancipá (Colombia): 1,18 veces.</p>
+<h2>Metodología</h2>
+<ul>
+<li><strong>Fuente:</strong> exportes nocturnos de la base de datos de Aptología (aptologia.com) del 18 de octubre de 2026: avisos vigentes de vivienda en portales inmobiliarios de 13 países, recogidos por Aptología y vistos en línea entre el 11 y el 18 de octubre de 2026. Corte: 18 de octubre de 2026.</li>
+<li><strong>Depuración:</strong> se eliminan duplicados exactos (misma ciudad, zona, tipo, precio, moneda, área, habitaciones y baños) y los precios fuera del percentil 1–99 de cada país, operación, moneda y tipo; el precio por m² usa solo avisos con área declarada entre 12 y 2.000 m² y también se recorta al P1–P99.</li>
+<li><strong>Qué se mide:</strong> precios pedidos (publicados), no precios de cierre. En arriendo, el canon mensual sin administración, gastos comunes ni condominio.</li>
+<li><strong>Muestra mínima:</strong> cada cifra publicada se apoya en al menos 30 avisos; las celdas con menos se omiten.</li>
+<li><strong>Monedas:</strong> nunca se mezclan avisos de monedas distintas sin convertirlos. Conversión a dólares con la tasa de mercado de ExchangeRate-API (open.er-api.com, actualización del 18 Oct 2026): 1 USD = 3.182,80 COP, 1 USD = 18,47 M.N, 1 USD = 5,09 BRL, 1 USD = 3,44 PEN, 1 USD = 982,44 CLP, 1 USD = 1.514,57 ARS, 1 USD = 40,20 UYU, 1 USD = 5.705,37 PYG, 1 USD = 61,27 DOP, 1 USD = 0,89 EUR, 1 USD = 11,72 BOB; la UF chilena a 41.178,64 CLP (mindicador,cl. 18-oct-2026). Los avisos publicados en dólares se usan tal cual.</li>
+<li><strong>Monedas:</strong> en cada ciudad y operación se usa solo la moneda mayoritaria de los avisos (los avisos en otra moneda se excluyen) y la mediana se convierte a dólares con la tasa citada; nunca se promedian avisos de monedas distintas.</li>
+<li><strong>Limitaciones:</strong> la cobertura depende de los portales que recorre Aptología en cada país y es mayor en las ciudades grandes y en los segmentos medio-alto y alto; el área es la que declara el aviso, sin verificar; los nombres de zona vienen de los portales.</li>
+<li><strong>Privacidad:</strong> solo se publican agregados; no se publica ningún dato personal, enlace a avisos ni nombre de anunciante.</li>
+<li><strong>Datos abiertos:</strong> <a href="data/dispersion_del_precio_m2_ciudades_latinoamerica_2026_datos.csv">datos.csv</a>, licencia CC BY 4.0.</li>
+</ul>
+<h2>Cómo citar</h2>
+<p>Pinzón Pineda, D. M. (2026). <em>Cuánto varía el precio del metro cuadrado dentro de cada ciudad de Latinoamérica y Portugal: dispersión en 53 ciudades (octubre 2026)</em>. Aptología (aptologia.com). https://github.com/elbroker/aptologia-datos/tree/main/estudios/dispersion-del-precio-m2-ciudades-latinoamerica-2026. Datos: datos.csv, licencia CC BY 4.0.</p><h2>Enlaces</h2><ul><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/dispersion-del-precio-m2-ciudades-latinoamerica-2026">Estudio en aptologia.com</a></li><li><a href="https://doi.org/10.5281/zenodo.23475781">DOI 10.5281/zenodo.23475781</a></li><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/dispersion-del-precio-m2-ciudades-latinoamerica-2026">Datos en GitHub</a></li><li><a href="https://huggingface.co/datasets/aptologia/dispersion-del-precio-m2-ciudades-latinoamerica-2026">Hugging Face</a></li><li><a href="https://www.kaggle.com/datasets/aptologia/dispersion-m2-ciudades-latam-2026">Kaggle</a></li><li><a href="dispersion-del-precio-m2-ciudades-latinoamerica-2026.pdf">PDF</a></li></ul></main><footer>Autor: Daniel Mauricio Pinzón Pineda (<a href="https://orcid.org/0009-0007-5142-366X">ORCID</a>), <a href="https://www.aptologia.com">Aptología</a>. Licencia CC BY 4.0.</footer></body></html>

@@ -1,0 +1,471 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>¿Comprar o arrendar? Años de arriendo que vale el metro cuadrado en 324 barrios de Colombia (octubre 2026) | Aptología</title><meta name="description" content="El barrio de Colombia donde el metro cuadrado se paga con menos años de arriendo es Quinta Camacho (Bogotá): 8,3 años; en Manzanillo (Cartagena) hacen falta 22,7 años. En Bogotá, de 8,3 años (Quinta Camacho) a 16,4 (Santa Bárbara Alta). En Medellín, de 9,2 años (La Candelaria) a 16,7 (La…">
+<link rel="canonical" href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/comprar-o-arrendar-por-barrio-colombia-2026"><style>body{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#222}img{max-width:100%}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:4px 8px}a{color:#0b5}header,footer{color:#555;font-size:15px}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "¿Comprar o arrendar? Años de arriendo que vale el metro cuadrado en 324 barrios de Colombia (octubre 2026)", "description": "El barrio de Colombia donde el metro cuadrado se paga con menos años de arriendo es Quinta Camacho (Bogotá): 8,3 años; en Manzanillo (Cartagena) hacen falta 22,7 años. En Bogotá, de 8,3 años (Quinta Camacho) a 16,4 (Santa Bárbara Alta). En Medellín, de 9,2 años (La Candelaria) a 16,7 (La Castellana). En Barranquilla, de 9,4 años (Barranquilla) a 14,2 (Alameda del Río). En Cali, de 10,4 años (Santa Teresita) a 14,3 (Bochalema). En Cartagena, de 11,0 años (Torices) a 22,7 (Manzanillo).", "url": "https://elbroker.github.io/aptologia-estudios-web/comprar-o-arrendar-por-barrio-colombia-2026/", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "inLanguage": "es", "creator": {"@type": "Person", "name": "Daniel Mauricio Pinzón Pineda", "sameAs": "https://orcid.org/0009-0007-5142-366X"}, "publisher": {"@type": "Organization", "name": "Aptología", "url": "https://www.aptologia.com"}, "spatialCoverage": "Colombia", "temporalCoverage": "2026", "sameAs": ["https://github.com/elbroker/aptologia-datos/tree/main/estudios/comprar-o-arrendar-por-barrio-colombia-2026", "https://doi.org/10.5281/zenodo.23475912", "https://huggingface.co/datasets/aptologia/comprar-o-arrendar-por-barrio-colombia-2026", "https://zenodo.org/records/23475912"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://elbroker.github.io/aptologia-estudios-web/comprar-o-arrendar-por-barrio-colombia-2026/data/comprar_o_arrendar_por_barrio_colombia_2026_datos.csv"}], "identifier": "https://doi.org/10.5281/zenodo.23475912"}</script></head><body>
+<header><a href="https://elbroker.github.io/aptologia-estudios-web/">Estudios de vivienda en Colombia — Aptología</a></header><main><h1>¿Comprar o arrendar? Años de arriendo que vale el metro cuadrado en 324 barrios de Colombia (octubre 2026)</h1>
+<p><em>Estudio con datos abiertos (CC BY 4.0). Versión original: <a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/comprar-o-arrendar-por-barrio-colombia-2026">https://github.com/elbroker/aptologia-datos/tree/main/estudios/comprar-o-arrendar-por-barrio-colombia-2026</a> · DOI: <a href="https://doi.org/10.5281/zenodo.23475912">10.5281/zenodo.23475912</a></em></p>
+<p><strong>El barrio de Colombia donde el metro cuadrado se paga con menos años de arriendo es Quinta Camacho (Bogotá): 8,3 años; en Manzanillo (Cartagena) hacen falta 22,7 años.</strong> En Bogotá, de 8,3 años (Quinta Camacho) a 16,4 (Santa Bárbara Alta). En Medellín, de 9,2 años (La Candelaria) a 16,7 (La Castellana). En Barranquilla, de 9,4 años (Barranquilla) a 14,2 (Alameda del Río). En Cali, de 10,4 años (Santa Teresita) a 14,3 (Bochalema). En Cartagena, de 11,0 años (Torices) a 22,7 (Manzanillo).</p>
+<p><em>Resumen: cruzamos el precio por m² en venta y en arriendo de apartamentos en 324 barrios con 30 avisos o más en cada operación.</em></p>
+<p><strong>Actualizado:</strong> 18 de octubre de 2026 (datos del 18 de octubre de 2026) · <strong>Próxima actualización:</strong> mensual.</p>
+<p><img alt="Barrios con menos años de arriendo" src="charts/anos-arriendo-barrios.png" /></p>
+<h2>Resumen</h2>
+<table>
+<thead>
+<tr>
+<th>Indicador</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Barrios comparados</td>
+<td>324</td>
+</tr>
+<tr>
+<td>Menos años</td>
+<td>Quinta Camacho (Bogotá): 8,3</td>
+</tr>
+<tr>
+<td>Más años</td>
+<td>Manzanillo (Cartagena): 22,7</td>
+</tr>
+<tr>
+<td>Mediana de los barrios</td>
+<td>14,0 años</td>
+</tr>
+</tbody>
+</table>
+<h2>Los 30 barrios con menos años y los 20 con más</h2>
+<table>
+<thead>
+<tr>
+<th>Barrio</th>
+<th>Ciudad</th>
+<th>Venta por m² (millones)</th>
+<th>Arriendo por m² al mes</th>
+<th>Años de arriendo</th>
+<th>Avisos (venta / arriendo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quinta Camacho</td>
+<td>Bogotá</td>
+<td>6,71</td>
+<td>67.105</td>
+<td>8,3</td>
+<td>46 / 31</td>
+</tr>
+<tr>
+<td>La Candelaria</td>
+<td>Medellín</td>
+<td>4,62</td>
+<td>41.742</td>
+<td>9,2</td>
+<td>180 / 90</td>
+</tr>
+<tr>
+<td>Barranquilla</td>
+<td>Barranquilla</td>
+<td>4,66</td>
+<td>41.458</td>
+<td>9,4</td>
+<td>83 / 48</td>
+</tr>
+<tr>
+<td>Altos del Prado</td>
+<td>Barranquilla</td>
+<td>3,85</td>
+<td>33.750</td>
+<td>9,5</td>
+<td>461 / 195</td>
+</tr>
+<tr>
+<td>La Castellana</td>
+<td>Bogotá</td>
+<td>8,03</td>
+<td>70.000</td>
+<td>9,6</td>
+<td>98 / 37</td>
+</tr>
+<tr>
+<td>Alto Prado</td>
+<td>Barranquilla</td>
+<td>3,82</td>
+<td>32.697</td>
+<td>9,7</td>
+<td>421 / 160</td>
+</tr>
+<tr>
+<td>El Porvenir</td>
+<td>Barranquilla</td>
+<td>3,70</td>
+<td>30.769</td>
+<td>10,0</td>
+<td>75 / 65</td>
+</tr>
+<tr>
+<td>Chico Norte III</td>
+<td>Bogotá</td>
+<td>8,45</td>
+<td>68.367</td>
+<td>10,3</td>
+<td>107 / 37</td>
+</tr>
+<tr>
+<td>Riomar</td>
+<td>Barranquilla</td>
+<td>5,10</td>
+<td>40.952</td>
+<td>10,4</td>
+<td>340 / 198</td>
+</tr>
+<tr>
+<td>Villa Santos</td>
+<td>Barranquilla</td>
+<td>4,75</td>
+<td>37.975</td>
+<td>10,4</td>
+<td>379 / 195</td>
+</tr>
+<tr>
+<td>El Tabor</td>
+<td>Barranquilla</td>
+<td>3,68</td>
+<td>29.377</td>
+<td>10,4</td>
+<td>83 / 56</td>
+</tr>
+<tr>
+<td>Santa Teresita</td>
+<td>Cali</td>
+<td>5,47</td>
+<td>43.614</td>
+<td>10,4</td>
+<td>364 / 62</td>
+</tr>
+<tr>
+<td>Altamira</td>
+<td>Barranquilla</td>
+<td>5,35</td>
+<td>42.242</td>
+<td>10,6</td>
+<td>39 / 32</td>
+</tr>
+<tr>
+<td>Lago Alto</td>
+<td>Barranquilla</td>
+<td>5,43</td>
+<td>42.464</td>
+<td>10,6</td>
+<td>81 / 38</td>
+</tr>
+<tr>
+<td>San Vicente</td>
+<td>Barranquilla</td>
+<td>4,23</td>
+<td>32.899</td>
+<td>10,7</td>
+<td>112 / 84</td>
+</tr>
+<tr>
+<td>Villa Country</td>
+<td>Barranquilla</td>
+<td>4,14</td>
+<td>31.875</td>
+<td>10,8</td>
+<td>165 / 77</td>
+</tr>
+<tr>
+<td>Chico</td>
+<td>Bogotá</td>
+<td>8,87</td>
+<td>67.765</td>
+<td>10,9</td>
+<td>613 / 296</td>
+</tr>
+<tr>
+<td>Andalucia</td>
+<td>Barranquilla</td>
+<td>4,27</td>
+<td>32.585</td>
+<td>10,9</td>
+<td>110 / 50</td>
+</tr>
+<tr>
+<td>Chico Norte</td>
+<td>Bogotá</td>
+<td>8,99</td>
+<td>68.500</td>
+<td>10,9</td>
+<td>820 / 504</td>
+</tr>
+<tr>
+<td>Torices</td>
+<td>Cartagena</td>
+<td>6,20</td>
+<td>47.128</td>
+<td>11,0</td>
+<td>110 / 52</td>
+</tr>
+<tr>
+<td>Chico Navarra</td>
+<td>Bogotá</td>
+<td>7,85</td>
+<td>59.630</td>
+<td>11,0</td>
+<td>425 / 108</td>
+</tr>
+<tr>
+<td>Medellín</td>
+<td>Medellín</td>
+<td>6,59</td>
+<td>50.000</td>
+<td>11,0</td>
+<td>75 / 71</td>
+</tr>
+<tr>
+<td>Pasadena</td>
+<td>Bogotá</td>
+<td>7,77</td>
+<td>58.462</td>
+<td>11,1</td>
+<td>204 / 59</td>
+</tr>
+<tr>
+<td>La Macarena</td>
+<td>Bogotá</td>
+<td>7,88</td>
+<td>59.217</td>
+<td>11,1</td>
+<td>35 / 48</td>
+</tr>
+<tr>
+<td>Santa Bárbara Occidental</td>
+<td>Bogotá</td>
+<td>7,35</td>
+<td>55.180</td>
+<td>11,1</td>
+<td>350 / 112</td>
+</tr>
+<tr>
+<td>Rincon del Chico</td>
+<td>Bogotá</td>
+<td>6,86</td>
+<td>51.429</td>
+<td>11,1</td>
+<td>141 / 39</td>
+</tr>
+<tr>
+<td>Villa Carolina</td>
+<td>Barranquilla</td>
+<td>4,65</td>
+<td>34.808</td>
+<td>11,1</td>
+<td>134 / 74</td>
+</tr>
+<tr>
+<td>Altos de Riomar</td>
+<td>Barranquilla</td>
+<td>4,36</td>
+<td>32.520</td>
+<td>11,2</td>
+<td>513 / 201</td>
+</tr>
+<tr>
+<td>El Chico</td>
+<td>Bogotá</td>
+<td>8,86</td>
+<td>65.980</td>
+<td>11,2</td>
+<td>184 / 98</td>
+</tr>
+<tr>
+<td>San José Sur</td>
+<td>Pereira</td>
+<td>4,86</td>
+<td>36.000</td>
+<td>11,2</td>
+<td>49 / 35</td>
+</tr>
+<tr>
+<td>Santa Bárbara Alta</td>
+<td>Bogotá</td>
+<td>10,47</td>
+<td>53.250</td>
+<td>16,4</td>
+<td>144 / 63</td>
+</tr>
+<tr>
+<td>Playa Salguero</td>
+<td>Santa Marta</td>
+<td>9,84</td>
+<td>50.000</td>
+<td>16,4</td>
+<td>293 / 39</td>
+</tr>
+<tr>
+<td>Las Vegas</td>
+<td>Envigado</td>
+<td>10,22</td>
+<td>51.765</td>
+<td>16,5</td>
+<td>126 / 167</td>
+</tr>
+<tr>
+<td>Galicia</td>
+<td>Pereira</td>
+<td>5,81</td>
+<td>29.375</td>
+<td>16,5</td>
+<td>166 / 89</td>
+</tr>
+<tr>
+<td>Pozos Colorados</td>
+<td>Santa Marta</td>
+<td>10,50</td>
+<td>52.273</td>
+<td>16,7</td>
+<td>498 / 89</td>
+</tr>
+<tr>
+<td>La Castellana</td>
+<td>Medellín</td>
+<td>7,31</td>
+<td>36.364</td>
+<td>16,7</td>
+<td>193 / 171</td>
+</tr>
+<tr>
+<td>Pantanillo</td>
+<td>El Retiro</td>
+<td>8,73</td>
+<td>43.333</td>
+<td>16,8</td>
+<td>66 / 61</td>
+</tr>
+<tr>
+<td>Fontibon</td>
+<td>Rionegro</td>
+<td>6,01</td>
+<td>29.630</td>
+<td>16,9</td>
+<td>260 / 125</td>
+</tr>
+<tr>
+<td>Barro Blanco</td>
+<td>Rionegro</td>
+<td>8,16</td>
+<td>40.230</td>
+<td>16,9</td>
+<td>223 / 203</td>
+</tr>
+<tr>
+<td>San Antonio de Pereira</td>
+<td>Rionegro</td>
+<td>7,93</td>
+<td>38.889</td>
+<td>17,0</td>
+<td>201 / 147</td>
+</tr>
+<tr>
+<td>Santa Ana</td>
+<td>Rionegro</td>
+<td>7,56</td>
+<td>36.986</td>
+<td>17,0</td>
+<td>92 / 141</td>
+</tr>
+<tr>
+<td>La Boquilla</td>
+<td>Cartagena</td>
+<td>10,00</td>
+<td>48.816</td>
+<td>17,1</td>
+<td>384 / 152</td>
+</tr>
+<tr>
+<td>San Nicolas</td>
+<td>Rionegro</td>
+<td>8,37</td>
+<td>40.000</td>
+<td>17,4</td>
+<td>31 / 54</td>
+</tr>
+<tr>
+<td>San Antonio</td>
+<td>Rionegro</td>
+<td>7,97</td>
+<td>37.879</td>
+<td>17,5</td>
+<td>78 / 129</td>
+</tr>
+<tr>
+<td>Zona Norte</td>
+<td>Cartagena</td>
+<td>8,98</td>
+<td>42.370</td>
+<td>17,7</td>
+<td>122 / 36</td>
+</tr>
+<tr>
+<td>Los Colegios</td>
+<td>Rionegro</td>
+<td>7,68</td>
+<td>35.566</td>
+<td>18,0</td>
+<td>100 / 208</td>
+</tr>
+<tr>
+<td>Ojo de Agua</td>
+<td>Rionegro</td>
+<td>7,87</td>
+<td>36.184</td>
+<td>18,1</td>
+<td>62 / 67</td>
+</tr>
+<tr>
+<td>Zona Centro</td>
+<td>Envigado</td>
+<td>8,55</td>
+<td>36.735</td>
+<td>19,4</td>
+<td>92 / 31</td>
+</tr>
+<tr>
+<td>Manzanillo del Mar</td>
+<td>Cartagena</td>
+<td>11,22</td>
+<td>44.017</td>
+<td>21,2</td>
+<td>69 / 56</td>
+</tr>
+<tr>
+<td>Manzanillo</td>
+<td>Cartagena</td>
+<td>11,98</td>
+<td>43.923</td>
+<td>22,7</td>
+<td>124 / 64</td>
+</tr>
+</tbody>
+</table>
+<p>Precio de venta por m² ÷ (arriendo mensual por m² × 12). Ver datos.csv para todos los barrios.</p>
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿En qué barrio de Colombia conviene más comprar para arrendar?</strong>
+Por relación precio/arriendo, en Quinta Camacho (Bogotá): 8,3 años, una rentabilidad bruta de 12,0 %.</p>
+<p><strong>¿Cuántos años de arriendo vale un metro cuadrado en Colombia?</strong>
+La mediana de 324 barrios es 14,0 años.</p>
+<h2>Metodología</h2>
+<ul>
+<li><strong>Fuente:</strong> exportes nocturnos de la base de datos de Aptología (aptologia.com) del 18 de octubre de 2026: avisos vigentes de vivienda en portales inmobiliarios de 13 países, recogidos por Aptología y vistos en línea entre el 11 y el 18 de octubre de 2026. Corte: 18 de octubre de 2026.</li>
+<li><strong>Depuración:</strong> se eliminan duplicados exactos (misma ciudad, zona, tipo, precio, moneda, área, habitaciones y baños) y los precios fuera del percentil 1–99 de cada país, operación, moneda y tipo; el precio por m² usa solo avisos con área declarada entre 12 y 2.000 m² y también se recorta al P1–P99.</li>
+<li><strong>Qué se mide:</strong> precios pedidos (publicados), no precios de cierre. En arriendo, el canon mensual sin administración, gastos comunes ni condominio.</li>
+<li><strong>Muestra mínima:</strong> cada cifra publicada se apoya en al menos 30 avisos; las celdas con menos se omiten.</li>
+<li><strong>Colombia:</strong> Precios en pesos colombianos, sin conversión de moneda.</li>
+<li><strong>Años de arriendo para pagar la vivienda:</strong> precio de venta mediano ÷ (canon mensual mediano × 12), entre avisos del mismo tipo y celda; es la relación precio/arriendo (price-to-rent ratio) y equivale a 100 ÷ rentabilidad bruta. No incluye administración, impuestos, vacancia, financiación ni valorización: es una referencia para comparar comprar con arrendar, no una recomendación de inversión.</li>
+<li><strong>Limitaciones:</strong> la cobertura depende de los portales que recorre Aptología en cada país y es mayor en las ciudades grandes y en los segmentos medio-alto y alto; el área es la que declara el aviso, sin verificar; los nombres de zona vienen de los portales.</li>
+<li><strong>Privacidad:</strong> solo se publican agregados; no se publica ningún dato personal, enlace a avisos ni nombre de anunciante.</li>
+<li><strong>Datos abiertos:</strong> <a href="data/comprar_o_arrendar_por_barrio_colombia_2026_datos.csv">datos.csv</a>, licencia CC BY 4.0.</li>
+</ul>
+<h2>Cómo citar</h2>
+<p>Pinzón Pineda, D. M. (2026). <em>¿Comprar o arrendar? Años de arriendo que vale el metro cuadrado en 324 barrios de Colombia (octubre 2026)</em>. Aptología (aptologia.com). https://github.com/elbroker/aptologia-datos/tree/main/estudios/comprar-o-arrendar-por-barrio-colombia-2026. Datos: datos.csv, licencia CC BY 4.0.</p><h2>Enlaces</h2><ul><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/comprar-o-arrendar-por-barrio-colombia-2026">Estudio en aptologia.com</a></li><li><a href="https://doi.org/10.5281/zenodo.23475912">DOI 10.5281/zenodo.23475912</a></li><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/comprar-o-arrendar-por-barrio-colombia-2026">Datos en GitHub</a></li><li><a href="https://huggingface.co/datasets/aptologia/comprar-o-arrendar-por-barrio-colombia-2026">Hugging Face</a></li><li><a href="https://www.kaggle.com/datasets/aptologia/comprar-o-arrendar-por-barrio-colombia-2026">Kaggle</a></li><li><a href="comprar-o-arrendar-por-barrio-colombia-2026.pdf">PDF</a></li></ul></main><footer>Autor: Daniel Mauricio Pinzón Pineda (<a href="https://orcid.org/0009-0007-5142-366X">ORCID</a>), <a href="https://www.aptologia.com">Aptología</a>. Licencia CC BY 4.0.</footer></body></html>
