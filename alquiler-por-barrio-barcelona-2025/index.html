@@ -1,0 +1,543 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alquiler por barrio en Barcelona: renta media de los contratos de 2025 en sus barrios y distritos | Aptología</title><meta name="description" content="El barrio de Barcelona con el alquiler medio más alto en 2025 fue les Tres Torres, con 2.014 euros al mes, y el más bajo de los 68 barrios con 30 contratos o más fue Ciutat Meridiana, con 601 euros. Por distritos, Sarrià-Sant Gervasi encabeza con 1.604 euros (19,06 euros por m²) y Nou Barris…">
+<link rel="canonical" href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/alquiler-por-barrio-barcelona-2025"><style>body{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#222}img{max-width:100%}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:4px 8px}a{color:#0b5}header,footer{color:#555;font-size:15px}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Alquiler por barrio en Barcelona: renta media de los contratos de 2025 en sus barrios y distritos", "description": "El barrio de Barcelona con el alquiler medio más alto en 2025 fue les Tres Torres, con 2.014 euros al mes, y el más bajo de los 68 barrios con 30 contratos o más fue Ciutat Meridiana, con 601 euros. Por distritos, Sarrià-Sant Gervasi encabeza con 1.604 euros (19,06 euros por m²) y Nou Barris cierra con 796 euros.", "url": "https://elbroker.github.io/aptologia-estudios-web/alquiler-por-barrio-barcelona-2025/", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "inLanguage": "es", "creator": {"@type": "Person", "name": "Daniel Mauricio Pinzón Pineda", "sameAs": "https://orcid.org/0009-0007-5142-366X"}, "publisher": {"@type": "Organization", "name": "Aptología", "url": "https://www.aptologia.com"}, "spatialCoverage": "Colombia", "temporalCoverage": "2026", "sameAs": ["https://github.com/elbroker/aptologia-datos/tree/main/estudios/alquiler-por-barrio-barcelona-2025", "https://doi.org/10.5281/zenodo.23471347", "https://huggingface.co/datasets/aptologia/alquiler-por-barrio-barcelona-2025", "https://zenodo.org/records/23471347"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://elbroker.github.io/aptologia-estudios-web/alquiler-por-barrio-barcelona-2025/data/alquiler_por_barrio_barcelona_2025_datos.csv"}], "identifier": "https://doi.org/10.5281/zenodo.23471347"}</script></head><body>
+<header><a href="https://elbroker.github.io/aptologia-estudios-web/">Estudios de vivienda en Colombia — Aptología</a></header><main><h1>Alquiler por barrio en Barcelona: renta media de los contratos de 2025 en sus barrios y distritos</h1>
+<p><em>Estudio con datos abiertos (CC BY 4.0). Versión original: <a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/alquiler-por-barrio-barcelona-2025">https://github.com/elbroker/aptologia-datos/tree/main/estudios/alquiler-por-barrio-barcelona-2025</a> · DOI: <a href="https://doi.org/10.5281/zenodo.23471347">10.5281/zenodo.23471347</a></em></p>
+<p><strong>El barrio de Barcelona con el alquiler medio más alto en 2025 fue les Tres Torres, con 2.014 euros al mes, y el más bajo de los 68 barrios con 30 contratos o más fue Ciutat Meridiana, con 601 euros.</strong> Por distritos, Sarrià-Sant Gervasi encabeza con 1.604 euros (19,06 euros por m²) y Nou Barris cierra con 796 euros.</p>
+<p><em>Resumen: ordenamos 68 barrios y 10 distritos de Barcelona según los contratos de alquiler registrados en 2025.</em></p>
+<p><strong>Actualizado:</strong> 18 de octubre de 2026 (datos de contratos de 2025) · <strong>Próxima actualización:</strong> mensual.</p>
+<p><img alt="Alquiler por barrio en Barcelona" src="charts/alquiler-barrios-barcelona.png" /></p>
+<h2>Resumen</h2>
+<table>
+<thead>
+<tr>
+<th>Indicador</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Barrio más caro</td>
+<td>les Tres Torres: 2.014 euros</td>
+</tr>
+<tr>
+<td>Barrio más barato</td>
+<td>Ciutat Meridiana: 601 euros</td>
+</tr>
+<tr>
+<td>Distrito más caro</td>
+<td>Sarrià-Sant Gervasi: 1.604 euros</td>
+</tr>
+</tbody>
+</table>
+<h2>Distritos</h2>
+<table>
+<thead>
+<tr>
+<th>Distrito</th>
+<th>Alquiler medio mensual</th>
+<th>Euros por m²</th>
+<th>Contratos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sarrià-Sant Gervasi</td>
+<td>1.604 euros</td>
+<td>19,06</td>
+<td>3.462</td>
+</tr>
+<tr>
+<td>Les Corts</td>
+<td>1.335 euros</td>
+<td>17,66</td>
+<td>1.499</td>
+</tr>
+<tr>
+<td>Eixample</td>
+<td>1.284 euros</td>
+<td>16,84</td>
+<td>6.036</td>
+</tr>
+<tr>
+<td>Sant Martí</td>
+<td>1.094 euros</td>
+<td>16,53</td>
+<td>3.674</td>
+</tr>
+<tr>
+<td>Gràcia</td>
+<td>1.082 euros</td>
+<td>17,73</td>
+<td>3.021</td>
+</tr>
+<tr>
+<td>Ciutat Vella</td>
+<td>1.019 euros</td>
+<td>18,13</td>
+<td>2.763</td>
+</tr>
+<tr>
+<td>Sants-Montjuïc</td>
+<td>1.001 euros</td>
+<td>16,41</td>
+<td>3.481</td>
+</tr>
+<tr>
+<td>Horta-Guinardó</td>
+<td>909 euros</td>
+<td>14,95</td>
+<td>2.674</td>
+</tr>
+<tr>
+<td>Sant Andreu</td>
+<td>904 euros</td>
+<td>14,11</td>
+<td>2.101</td>
+</tr>
+<tr>
+<td>Nou Barris</td>
+<td>796 euros</td>
+<td>13,44</td>
+<td>1.924</td>
+</tr>
+</tbody>
+</table>
+<p>Renta media mensual y por m² de los contratos registrados en 2025.</p>
+<h2>Barrios de mayor a menor</h2>
+<table>
+<thead>
+<tr>
+<th>Barrio</th>
+<th>Alquiler medio mensual</th>
+<th>Euros por m²</th>
+<th>Contratos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>les Tres Torres</td>
+<td>2.014 euros</td>
+<td>19,74</td>
+<td>258</td>
+</tr>
+<tr>
+<td>Pedralbes</td>
+<td>1.948 euros</td>
+<td>18,67</td>
+<td>167</td>
+</tr>
+<tr>
+<td>Sant Gervasi - Galvany</td>
+<td>1.732 euros</td>
+<td>18,84</td>
+<td>1.231</td>
+</tr>
+<tr>
+<td>Diagonal Mar i el Front Marítim del Poblenou</td>
+<td>1.732 euros</td>
+<td>22,39</td>
+<td>208</td>
+</tr>
+<tr>
+<td>Sarrià</td>
+<td>1.667 euros</td>
+<td>20,49</td>
+<td>520</td>
+</tr>
+<tr>
+<td>Sant Gervasi - la Bonanova</td>
+<td>1.659 euros</td>
+<td>19,24</td>
+<td>587</td>
+</tr>
+<tr>
+<td>Vallvidrera, el Tibidabo i les Planes</td>
+<td>1.614 euros</td>
+<td>14,53</td>
+<td>47</td>
+</tr>
+<tr>
+<td>la Vila Olímpica del Poblenou</td>
+<td>1.613 euros</td>
+<td>20,82</td>
+<td>168</td>
+</tr>
+<tr>
+<td>la Dreta de l'Eixample</td>
+<td>1.596 euros</td>
+<td>17,40</td>
+<td>1.197</td>
+</tr>
+<tr>
+<td>la Marina del Prat Vermell - AEI Zona Franca</td>
+<td>1.390 euros</td>
+<td>17,36</td>
+<td>78</td>
+</tr>
+<tr>
+<td>l'Antiga Esquerra de l'Eixample</td>
+<td>1.389 euros</td>
+<td>16,80</td>
+<td>1.182</td>
+</tr>
+<tr>
+<td>les Corts</td>
+<td>1.299 euros</td>
+<td>17,97</td>
+<td>939</td>
+</tr>
+<tr>
+<td>el Parc i la Llacuna del Poblenou</td>
+<td>1.258 euros</td>
+<td>18,21</td>
+<td>220</td>
+</tr>
+<tr>
+<td>la Nova Esquerra de l'Eixample</td>
+<td>1.203 euros</td>
+<td>17,31</td>
+<td>1.277</td>
+</tr>
+<tr>
+<td>el Putxet i el Farró</td>
+<td>1.202 euros</td>
+<td>18,34</td>
+<td>819</td>
+</tr>
+<tr>
+<td>el Poblenou</td>
+<td>1.190 euros</td>
+<td>18,29</td>
+<td>601</td>
+</tr>
+<tr>
+<td>la Bordeta</td>
+<td>1.186 euros</td>
+<td>18,23</td>
+<td>465</td>
+</tr>
+<tr>
+<td>el Barri Gòtic</td>
+<td>1.172 euros</td>
+<td>16,49</td>
+<td>544</td>
+</tr>
+<tr>
+<td>la Maternitat i Sant Ramon</td>
+<td>1.160 euros</td>
+<td>16,51</td>
+<td>393</td>
+</tr>
+<tr>
+<td>el Fort Pienc</td>
+<td>1.134 euros</td>
+<td>15,55</td>
+<td>638</td>
+</tr>
+<tr>
+<td>Sant Antoni</td>
+<td>1.118 euros</td>
+<td>16,26</td>
+<td>729</td>
+</tr>
+<tr>
+<td>Provençals del Poblenou</td>
+<td>1.115 euros</td>
+<td>16,85</td>
+<td>335</td>
+</tr>
+<tr>
+<td>la Sagrada Família</td>
+<td>1.107 euros</td>
+<td>16,89</td>
+<td>1.013</td>
+</tr>
+<tr>
+<td>el Camp d'en Grassot i Gràcia Nova</td>
+<td>1.105 euros</td>
+<td>17,13</td>
+<td>686</td>
+</tr>
+<tr>
+<td>la Vila de Gràcia</td>
+<td>1.090 euros</td>
+<td>18,50</td>
+<td>1.602</td>
+</tr>
+<tr>
+<td>Vallcarca i els Penitents</td>
+<td>1.089 euros</td>
+<td>17,39</td>
+<td>342</td>
+</tr>
+<tr>
+<td>Sant Pere, Santa Caterina i la Ribera</td>
+<td>1.081 euros</td>
+<td>18,61</td>
+<td>706</td>
+</tr>
+<tr>
+<td>la Salut</td>
+<td>1.069 euros</td>
+<td>16,48</td>
+<td>239</td>
+</tr>
+<tr>
+<td>la Font d'en Fargues</td>
+<td>1.044 euros</td>
+<td>14,60</td>
+<td>84</td>
+</tr>
+<tr>
+<td>la Font de la Guatlla</td>
+<td>1.044 euros</td>
+<td>15,94</td>
+<td>157</td>
+</tr>
+<tr>
+<td>Sant Martí de Provençals</td>
+<td>1.011 euros</td>
+<td>13,57</td>
+<td>304</td>
+</tr>
+<tr>
+<td>el Baix Guinardó</td>
+<td>998 euros</td>
+<td>15,93</td>
+<td>453</td>
+</tr>
+<tr>
+<td>Sants</td>
+<td>995 euros</td>
+<td>16,43</td>
+<td>911</td>
+</tr>
+<tr>
+<td>el Camp de l'Arpa del Clot</td>
+<td>982 euros</td>
+<td>15,99</td>
+<td>751</td>
+</tr>
+<tr>
+<td>Navas</td>
+<td>980 euros</td>
+<td>14,69</td>
+<td>314</td>
+</tr>
+<tr>
+<td>la Sagrera</td>
+<td>979 euros</td>
+<td>14,08</td>
+<td>513</td>
+</tr>
+<tr>
+<td>la Vall d'Hebron</td>
+<td>976 euros</td>
+<td>15,34</td>
+<td>45</td>
+</tr>
+<tr>
+<td>el Clot</td>
+<td>966 euros</td>
+<td>15,65</td>
+<td>407</td>
+</tr>
+<tr>
+<td>Hostafrancs</td>
+<td>960 euros</td>
+<td>16,46</td>
+<td>370</td>
+</tr>
+<tr>
+<td>el Guinardó</td>
+<td>959 euros</td>
+<td>15,44</td>
+<td>681</td>
+</tr>
+<tr>
+<td>el Raval</td>
+<td>957 euros</td>
+<td>16,61</td>
+<td>1.065</td>
+</tr>
+<tr>
+<td>Sants - Badal</td>
+<td>943 euros</td>
+<td>15,93</td>
+<td>484</td>
+</tr>
+<tr>
+<td>el Poble Sec - AEI Parc Montjuïc</td>
+<td>943 euros</td>
+<td>16,73</td>
+<td>765</td>
+</tr>
+<tr>
+<td>la Verneda i la Pau</td>
+<td>924 euros</td>
+<td>14,17</td>
+<td>423</td>
+</tr>
+<tr>
+<td>el Coll</td>
+<td>906 euros</td>
+<td>15,24</td>
+<td>152</td>
+</tr>
+<tr>
+<td>la Guineueta</td>
+<td>902 euros</td>
+<td>12,47</td>
+<td>156</td>
+</tr>
+<tr>
+<td>el Congrés i els Indians</td>
+<td>898 euros</td>
+<td>14,20</td>
+<td>223</td>
+</tr>
+<tr>
+<td>Horta</td>
+<td>897 euros</td>
+<td>14,31</td>
+<td>420</td>
+</tr>
+<tr>
+<td>Vilapicina i la Torre Llobeta</td>
+<td>888 euros</td>
+<td>14,59</td>
+<td>346</td>
+</tr>
+<tr>
+<td>la Marina de Port</td>
+<td>885 euros</td>
+<td>13,13</td>
+<td>251</td>
+</tr>
+<tr>
+<td>la Barceloneta</td>
+<td>881 euros</td>
+<td>22,70</td>
+<td>448</td>
+</tr>
+<tr>
+<td>Sant Andreu</td>
+<td>880 euros</td>
+<td>14,62</td>
+<td>810</td>
+</tr>
+<tr>
+<td>Montbau</td>
+<td>870 euros</td>
+<td>15,47</td>
+<td>80</td>
+</tr>
+<tr>
+<td>la Teixonera</td>
+<td>865 euros</td>
+<td>14,96</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Can Baró</td>
+<td>847 euros</td>
+<td>16,03</td>
+<td>158</td>
+</tr>
+<tr>
+<td>Sant Genís dels Agudells</td>
+<td>831 euros</td>
+<td>12,25</td>
+<td>123</td>
+</tr>
+<tr>
+<td>Porta</td>
+<td>819 euros</td>
+<td>13,32</td>
+<td>331</td>
+</tr>
+<tr>
+<td>la Prosperitat</td>
+<td>819 euros</td>
+<td>14,42</td>
+<td>332</td>
+</tr>
+<tr>
+<td>Canyelles</td>
+<td>791 euros</td>
+<td>9,98</td>
+<td>36</td>
+</tr>
+<tr>
+<td>el Carmel</td>
+<td>781 euros</td>
+<td>13,97</td>
+<td>418</td>
+</tr>
+<tr>
+<td>el Bon Pastor</td>
+<td>766 euros</td>
+<td>11,36</td>
+<td>151</td>
+</tr>
+<tr>
+<td>Verdun</td>
+<td>759 euros</td>
+<td>14,21</td>
+<td>161</td>
+</tr>
+<tr>
+<td>el Turó de la Peira</td>
+<td>757 euros</td>
+<td>13,03</td>
+<td>243</td>
+</tr>
+<tr>
+<td>el Besòs i el Maresme</td>
+<td>756 euros</td>
+<td>13,16</td>
+<td>257</td>
+</tr>
+<tr>
+<td>les Roquetes</td>
+<td>701 euros</td>
+<td>13,62</td>
+<td>155</td>
+</tr>
+<tr>
+<td>la Trinitat Vella</td>
+<td>682 euros</td>
+<td>12,91</td>
+<td>75</td>
+</tr>
+<tr>
+<td>la Trinitat Nova</td>
+<td>636 euros</td>
+<td>12,45</td>
+<td>52</td>
+</tr>
+<tr>
+<td>Ciutat Meridiana</td>
+<td>601 euros</td>
+<td>10,20</td>
+<td>71</td>
+</tr>
+</tbody>
+</table>
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿Cuál es el barrio más caro para alquilar en Barcelona?</strong>
+les Tres Torres, con 2.014 euros al mes de renta media en 2025.</p>
+<p><strong>¿Dónde es más barato alquilar en Barcelona?</strong>
+En Ciutat Meridiana: 601 euros al mes.</p>
+<h2>Metodología</h2>
+<ul>
+<li><strong>Fuente:</strong> Incasòl, Generalitat de Catalunya (fianzas de contratos de alquiler, 2025). Las tablas oficiales se tomaron de los exportes nocturnos de Aptología del 18 de octubre de 2026 (es_alquiler_municipio, es_alquiler_barrio, es_compra_municipio), que las recopilan sin modificarlas.</li>
+<li><strong>Estadístico:</strong> renta media mensual y por m²; año 2025.</li>
+<li><strong>Qué se mide:</strong> rentas de contratos registrados (fianzas) o valores de tasación oficiales, no precios pedidos en portales.</li>
+<li><strong>Muestra mínima:</strong> solo se publican filas con 30 contratos o tasaciones o más.</li>
+<li><strong>Limitaciones:</strong> cada fuente usa su propia metodología (media en Cataluña, mediana en la Comunitat Valenciana), por lo que no deben compararse entre sí sin cautela.</li>
+<li><strong>Datos abiertos:</strong> <a href="data/alquiler_por_barrio_barcelona_2025_datos.csv">datos.csv</a>, licencia CC BY 4.0.</li>
+</ul>
+<h2>Cómo citar</h2>
+<p>Pinzón Pineda, D. M. (2026). <em>Alquiler por barrio en Barcelona: renta media de los contratos de 2025 en sus barrios y distritos</em>. Aptología (aptologia.com). https://github.com/elbroker/aptologia-datos/tree/main/estudios/alquiler-por-barrio-barcelona-2025. Datos: datos.csv, licencia CC BY 4.0.</p><h2>Enlaces</h2><ul><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/alquiler-por-barrio-barcelona-2025">Estudio en aptologia.com</a></li><li><a href="https://doi.org/10.5281/zenodo.23471347">DOI 10.5281/zenodo.23471347</a></li><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/alquiler-por-barrio-barcelona-2025">Datos en GitHub</a></li><li><a href="https://huggingface.co/datasets/aptologia/alquiler-por-barrio-barcelona-2025">Hugging Face</a></li><li><a href="https://www.kaggle.com/datasets/aptologia/alquiler-por-barrio-barcelona-2025">Kaggle</a></li><li><a href="alquiler-por-barrio-barcelona-2025.pdf">PDF</a></li></ul></main><footer>Autor: Daniel Mauricio Pinzón Pineda (<a href="https://orcid.org/0009-0007-5142-366X">ORCID</a>), <a href="https://www.aptologia.com">Aptología</a>. Licencia CC BY 4.0.</footer></body></html>
