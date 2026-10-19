@@ -1,0 +1,334 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vivienda en Cartagena: precio por m², arriendo, habitaciones, estrato y administración (octubre 2026) | Aptología</title><meta name="description" content="El barrio con el metro cuadrado más caro de Cartagena es El Centro, con 13,39 millones de pesos en la mediana de apartamentos en venta; el más barato de la muestra es Ternera, con 3,80 millones de pesos. Un apartamento de 2 habitaciones se arrienda por 3,40 millones de pesos al mes en la mediana y…">
+<link rel="canonical" href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/vivienda-cartagena-venta-arriendo-rentabilidad-2026"><style>body{font:17px/1.6 system-ui,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#222}img{max-width:100%}table{border-collapse:collapse;font-size:15px}td,th{border:1px solid #ccc;padding:4px 8px}a{color:#0b5}header,footer{color:#555;font-size:15px}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Vivienda en Cartagena: precio por m², arriendo, habitaciones, estrato y administración (octubre 2026)", "description": "El barrio con el metro cuadrado más caro de Cartagena es El Centro, con 13,39 millones de pesos en la mediana de apartamentos en venta; el más barato de la muestra es Ternera, con 3,80 millones de pesos. Un apartamento de 2 habitaciones se arrienda por 3,40 millones de pesos al mes en la mediana y se vende por 750 millones de pesos. La rentabilidad bruta implícita del arriendo es 6,7 % anual. La administración equivale al 16,2 % del canon (647.000 pesos al mes en la mediana).", "url": "https://elbroker.github.io/aptologia-estudios-web/vivienda-cartagena-venta-arriendo-rentabilidad-2026/", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "inLanguage": "es", "creator": {"@type": "Person", "name": "Daniel Mauricio Pinzón Pineda", "sameAs": "https://orcid.org/0009-0007-5142-366X"}, "publisher": {"@type": "Organization", "name": "Aptología", "url": "https://www.aptologia.com"}, "spatialCoverage": "Colombia", "temporalCoverage": "2026", "sameAs": ["https://github.com/elbroker/aptologia-datos/tree/main/estudios/vivienda-cartagena-venta-arriendo-rentabilidad-2026", "https://doi.org/10.5281/zenodo.23462224", "https://huggingface.co/datasets/aptologia/vivienda-cartagena-venta-arriendo-rentabilidad-2026", "https://zenodo.org/records/23462224"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://elbroker.github.io/aptologia-estudios-web/vivienda-cartagena-venta-arriendo-rentabilidad-2026/data/vivienda_cartagena_venta_arriendo_rentabilidad_2026_datos.csv"}], "identifier": "https://doi.org/10.5281/zenodo.23462224"}</script></head><body>
+<header><a href="https://elbroker.github.io/aptologia-estudios-web/">Estudios de vivienda en Colombia — Aptología</a></header><main><h1>Vivienda en Cartagena: precio por m², arriendo, habitaciones, estrato y administración (octubre 2026)</h1>
+<p><em>Estudio con datos abiertos (CC BY 4.0). Versión original: <a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/vivienda-cartagena-venta-arriendo-rentabilidad-2026">https://github.com/elbroker/aptologia-datos/tree/main/estudios/vivienda-cartagena-venta-arriendo-rentabilidad-2026</a> · DOI: <a href="https://doi.org/10.5281/zenodo.23462224">10.5281/zenodo.23462224</a></em></p>
+<p><strong>El barrio con el metro cuadrado más caro de Cartagena es El Centro, con 13,39 millones de pesos en la mediana de apartamentos en venta; el más barato de la muestra es Ternera, con 3,80 millones de pesos.</strong> Un apartamento de 2 habitaciones se arrienda por 3,40 millones de pesos al mes en la mediana y se vende por 750 millones de pesos. La rentabilidad bruta implícita del arriendo es 6,7 % anual. La administración equivale al 16,2 % del canon (647.000 pesos al mes en la mediana).</p>
+<p><em>Resumen: analizamos 8.161 avisos de apartamentos en Cartagena (6.126 en venta y 2.035 en arriendo).</em></p>
+<p><strong>Actualizado:</strong> 18 de octubre de 2026 (datos del 18 de octubre de 2026) · <strong>Próxima actualización:</strong> mensual.</p>
+<p><img alt="Precio por m² por barrio en Cartagena" src="charts/m2-venta-barrios.png" /></p>
+<h2>Resumen</h2>
+<table>
+<thead>
+<tr>
+<th>Indicador</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Más caro (venta por m²)</td>
+<td>El Centro: 13,39 millones de pesos</td>
+</tr>
+<tr>
+<td>Más barato (venta por m²)</td>
+<td>Ternera: 3,80 millones de pesos</td>
+</tr>
+<tr>
+<td>Venta por m² (mediana)</td>
+<td>7,86 millones de pesos</td>
+</tr>
+<tr>
+<td>Arriendo 2 habitaciones</td>
+<td>3,40 millones de pesos</td>
+</tr>
+<tr>
+<td>Rentabilidad bruta implícita</td>
+<td>6,7 %</td>
+</tr>
+<tr>
+<td>Administración / canon (mediana)</td>
+<td>16,2 %</td>
+</tr>
+<tr>
+<td>Avisos</td>
+<td>8.161</td>
+</tr>
+</tbody>
+</table>
+<h2>Barrios (30 avisos o más)</h2>
+<table>
+<thead>
+<tr>
+<th>Barrio</th>
+<th>Venta por m² (millones de pesos)</th>
+<th>Arriendo mensual (millones de pesos)</th>
+<th>Avisos (venta / arriendo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>El Centro</td>
+<td>13,39</td>
+<td>—</td>
+<td>33 / —</td>
+</tr>
+<tr>
+<td>Manzanillo del</td>
+<td>12,24</td>
+<td>—</td>
+<td>31 / —</td>
+</tr>
+<tr>
+<td>Manzanillo</td>
+<td>11,98</td>
+<td>2,85</td>
+<td>124 / 65</td>
+</tr>
+<tr>
+<td>Zona Norte Manzanillo del Mar</td>
+<td>11,48</td>
+<td>—</td>
+<td>32 / —</td>
+</tr>
+<tr>
+<td>Manzanillo del Mar</td>
+<td>11,22</td>
+<td>2,70</td>
+<td>69 / 56</td>
+</tr>
+<tr>
+<td>Bahia Kristal</td>
+<td>10,81</td>
+<td>—</td>
+<td>34 / —</td>
+</tr>
+<tr>
+<td>Los Morros</td>
+<td>10,68</td>
+<td>—</td>
+<td>31 / —</td>
+</tr>
+<tr>
+<td>Castillo Grande</td>
+<td>10,62</td>
+<td>—</td>
+<td>44 / —</td>
+</tr>
+<tr>
+<td>Punta Canoa</td>
+<td>10,27</td>
+<td>—</td>
+<td>30 / —</td>
+</tr>
+<tr>
+<td>Zona Norte la Boquilla</td>
+<td>10,22</td>
+<td>—</td>
+<td>32 / —</td>
+</tr>
+<tr>
+<td>La Boquilla</td>
+<td>10,00</td>
+<td>4,50</td>
+<td>384 / 153</td>
+</tr>
+<tr>
+<td>Castillogrande</td>
+<td>9,74</td>
+<td>7,50</td>
+<td>265 / 76</td>
+</tr>
+<tr>
+<td>Zona Norte</td>
+<td>8,98</td>
+<td>3,79</td>
+<td>122 / 36</td>
+</tr>
+<tr>
+<td>Bocagrande</td>
+<td>8,80</td>
+<td>5,00</td>
+<td>686 / 188</td>
+</tr>
+<tr>
+<td>El Laguito</td>
+<td>8,55</td>
+<td>—</td>
+<td>267 / —</td>
+</tr>
+<tr>
+<td>El Cabrero</td>
+<td>8,42</td>
+<td>4,00</td>
+<td>117 / 75</td>
+</tr>
+<tr>
+<td>Cabrero</td>
+<td>8,33</td>
+<td>4,40</td>
+<td>50 / 38</td>
+</tr>
+<tr>
+<td>Laguito</td>
+<td>8,18</td>
+<td>—</td>
+<td>32 / —</td>
+</tr>
+<tr>
+<td>Cartagena de Indias</td>
+<td>8,17</td>
+<td>3,50</td>
+<td>288 / 36</td>
+</tr>
+<tr>
+<td>Cielo Mar</td>
+<td>8,15</td>
+<td>4,80</td>
+<td>148 / 49</td>
+</tr>
+<tr>
+<td>Serena del Mar</td>
+<td>8,10</td>
+<td>3,17</td>
+<td>517 / 356</td>
+</tr>
+<tr>
+<td>Zona Norte Serena del Mar</td>
+<td>8,00</td>
+<td>—</td>
+<td>62 / —</td>
+</tr>
+<tr>
+<td>Marbella</td>
+<td>6,97</td>
+<td>3,80</td>
+<td>176 / 100</td>
+</tr>
+<tr>
+<td>Crespo</td>
+<td>6,85</td>
+<td>4,00</td>
+<td>280 / 115</td>
+</tr>
+<tr>
+<td>Manga</td>
+<td>6,55</td>
+<td>5,00</td>
+<td>393 / 161</td>
+</tr>
+<tr>
+<td>Santa Lucia</td>
+<td>6,22</td>
+<td>—</td>
+<td>32 / —</td>
+</tr>
+<tr>
+<td>Torices</td>
+<td>6,20</td>
+<td>2,60</td>
+<td>110 / 52</td>
+</tr>
+<tr>
+<td>Pie de la Popa</td>
+<td>4,01</td>
+<td>—</td>
+<td>102 / —</td>
+</tr>
+<tr>
+<td>Alto Bosque</td>
+<td>3,89</td>
+<td>—</td>
+<td>35 / —</td>
+</tr>
+<tr>
+<td>Ternera</td>
+<td>3,80</td>
+<td>—</td>
+<td>40 / —</td>
+</tr>
+</tbody>
+</table>
+<p>Medianas de apartamentos; — indica menos de 30 avisos. El canon es mensual, sin administración ni gastos comunes.</p>
+<p><img alt="Precio por m² por estrato en Cartagena" src="charts/m2-por-estrato.png" /></p>
+<h2>Precio por número de habitaciones</h2>
+<table>
+<thead>
+<tr>
+<th>Habitaciones</th>
+<th>Precio de venta (mediana)</th>
+<th>Arriendo mensual (mediana)</th>
+<th>Avisos (venta / arriendo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>670 millones de pesos</td>
+<td>3,00 millones de pesos</td>
+<td>910 / 318</td>
+</tr>
+<tr>
+<td>2</td>
+<td>750 millones de pesos</td>
+<td>3,40 millones de pesos</td>
+<td>2.412 / 983</td>
+</tr>
+<tr>
+<td>3 o más</td>
+<td>898 millones de pesos</td>
+<td>4,80 millones de pesos</td>
+<td>2.786 / 731</td>
+</tr>
+</tbody>
+</table>
+<h2>Por estrato</h2>
+<table>
+<thead>
+<tr>
+<th>Estrato</th>
+<th>Venta por m² (millones)</th>
+<th>Arriendo mensual (millones)</th>
+<th>Avisos (venta / arriendo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>4,57</td>
+<td>2,00</td>
+<td>475 / 226</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5,45</td>
+<td>2,78</td>
+<td>783 / 387</td>
+</tr>
+<tr>
+<td>5</td>
+<td>7,43</td>
+<td>4,00</td>
+<td>1.874 / 801</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10,06</td>
+<td>5,50</td>
+<td>2.477 / 608</td>
+</tr>
+</tbody>
+</table>
+<p>Medianas; — indica menos de 30 avisos.</p>
+<h2>Preguntas frecuentes</h2>
+<p><strong>¿Cuál es el barrio más caro de Cartagena?</strong>
+El Centro, con 13,39 millones de pesos por m² en apartamentos en venta (octubre de 2026).</p>
+<p><strong>¿Dónde es más barato comprar apartamento en Cartagena?</strong>
+Entre los barrios con 30 avisos o más, en Ternera: 3,80 millones de pesos por m².</p>
+<p><strong>¿Cuánto renta un apartamento en Cartagena?</strong>
+La rentabilidad bruta implícita es 6,7 % anual (arriendo por m² × 12 ÷ precio de venta por m²), antes de gastos.</p>
+<p><strong>¿Cuánto cuesta arrendar un apartamento de 2 habitaciones en Cartagena?</strong>
+3,40 millones de pesos al mes en la mediana (octubre de 2026).</p>
+<h2>Metodología</h2>
+<ul>
+<li><strong>Fuente:</strong> exportes nocturnos de la base de datos de Aptología (aptologia.com) del 18 de octubre de 2026: avisos vigentes de vivienda en portales inmobiliarios de 13 países, recogidos por Aptología y vistos en línea entre el 11 y el 18 de octubre de 2026. Corte: 18 de octubre de 2026.</li>
+<li><strong>Depuración:</strong> se eliminan duplicados exactos (misma ciudad, zona, tipo, precio, moneda, área, habitaciones y baños) y los precios fuera del percentil 1–99 de cada país, operación, moneda y tipo; el precio por m² usa solo avisos con área declarada entre 12 y 2.000 m² y también se recorta al P1–P99.</li>
+<li><strong>Qué se mide:</strong> precios pedidos (publicados), no precios de cierre. En arriendo, el canon mensual sin administración, gastos comunes ni condominio.</li>
+<li><strong>Muestra mínima:</strong> cada cifra publicada se apoya en al menos 30 avisos; las celdas con menos se omiten.</li>
+<li><strong>Colombia:</strong> Precios en pesos colombianos, sin conversión de moneda. Administración ÷ canon con razones entre 1 % y 80 %.</li>
+<li><strong>Limitaciones:</strong> la cobertura depende de los portales que recorre Aptología en cada país y es mayor en las ciudades grandes y en los segmentos medio-alto y alto; el área es la que declara el aviso, sin verificar; los nombres de zona vienen de los portales.</li>
+<li><strong>Privacidad:</strong> solo se publican agregados; no se publica ningún dato personal, enlace a avisos ni nombre de anunciante.</li>
+<li><strong>Datos abiertos:</strong> <a href="data/vivienda_cartagena_venta_arriendo_rentabilidad_2026_datos.csv">datos.csv</a>, licencia CC BY 4.0.</li>
+</ul>
+<h2>Cómo citar</h2>
+<p>Pinzón Pineda, D. M. (2026). <em>Vivienda en Cartagena: precio por m², arriendo, habitaciones, estrato y administración (octubre 2026)</em>. Aptología (aptologia.com). https://github.com/elbroker/aptologia-datos/tree/main/estudios/vivienda-cartagena-venta-arriendo-rentabilidad-2026. Datos: datos.csv, licencia CC BY 4.0.</p><h2>Enlaces</h2><ul><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/vivienda-cartagena-venta-arriendo-rentabilidad-2026">Estudio en aptologia.com</a></li><li><a href="https://doi.org/10.5281/zenodo.23462224">DOI 10.5281/zenodo.23462224</a></li><li><a href="https://github.com/elbroker/aptologia-datos/tree/main/estudios/vivienda-cartagena-venta-arriendo-rentabilidad-2026">Datos en GitHub</a></li><li><a href="https://huggingface.co/datasets/aptologia/vivienda-cartagena-venta-arriendo-rentabilidad-2026">Hugging Face</a></li><li><a href="https://www.kaggle.com/datasets/aptologia/viv-cartagena-venta-arriendo-rentab-2026">Kaggle</a></li><li><a href="vivienda-cartagena-venta-arriendo-rentabilidad-2026.pdf">PDF</a></li></ul></main><footer>Autor: Daniel Mauricio Pinzón Pineda (<a href="https://orcid.org/0009-0007-5142-366X">ORCID</a>), <a href="https://www.aptologia.com">Aptología</a>. Licencia CC BY 4.0.</footer></body></html>
